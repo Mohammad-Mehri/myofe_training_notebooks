@@ -40,3 +40,12 @@ bash Anaconda3-2021.11-Linux-x86_64.sh
 conda install -c conda-forge python
 which python #check that python is installed, and has anaconda in its path
 # Download repository (this will give environment file, and notebooks)
+git clone https://github.com/CharlesMann/myofe_training_notebooks.git
+go into directory, find environment.yml file:
+conda env create -f environment.yml
+conda activate myofe
+
+jupyter-lab
+# open the file 'test_notebook.ipynb' and execute each code block. 
+Close the browser window, and in the wsl terminal execute: ctrl + C
+This gives the option to kill the jupyter-lab process.
