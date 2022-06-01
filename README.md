@@ -11,7 +11,7 @@ We need the following:
 
 ### Windows
 Unfortunately, FEniCS is not supported for Windows. There is a pretty easy workaround it seems for going through Ubuntu on a Windows machine that will be shown here. The big picture steps we will be taking are:
-- [Install and verify installation of wsl on Windows](#install-and-verify-intallation-of-wsl-on-Windows)
+- [Install and verify installation of wsl on Windows](#install-and-verify-installation-of-wsl-on-Windows)
 - [Install Ubuntu using the wsl command prompt](#install-ubuntu-using-the-wsl-command-prompt)
 - Install Anaconda in Ubuntu
 - Install Python using Anaconda in Ubuntu
