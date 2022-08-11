@@ -1,0 +1,129 @@
+{
+  "build": "py_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python <3"
+  ],
+  "extracted_package_dir": "/Applications/anaconda3/pkgs/functools32-3.2.3.2-py_3",
+  "features": "",
+  "files": [
+    "lib/python2.7/site-packages/functools32-3.2.3.post2-py2.7.egg-info/PKG-INFO",
+    "lib/python2.7/site-packages/functools32-3.2.3.post2-py2.7.egg-info/SOURCES.txt",
+    "lib/python2.7/site-packages/functools32-3.2.3.post2-py2.7.egg-info/dependency_links.txt",
+    "lib/python2.7/site-packages/functools32-3.2.3.post2-py2.7.egg-info/installed-files.txt",
+    "lib/python2.7/site-packages/functools32-3.2.3.post2-py2.7.egg-info/top_level.txt",
+    "lib/python2.7/site-packages/functools32/__init__.py",
+    "lib/python2.7/site-packages/functools32/_dummy_thread32.py",
+    "lib/python2.7/site-packages/functools32/functools32.py",
+    "lib/python2.7/site-packages/functools32/reprlib32.py",
+    "lib/python2.7/site-packages/functools32/__init__.pyc",
+    "lib/python2.7/site-packages/functools32/_dummy_thread32.pyc",
+    "lib/python2.7/site-packages/functools32/functools32.pyc",
+    "lib/python2.7/site-packages/functools32/reprlib32.pyc"
+  ],
+  "fn": "functools32-3.2.3.2-py_3.tar.bz2",
+  "license": "PSF 2",
+  "link": {
+    "source": "/Applications/anaconda3/pkgs/functools32-3.2.3.2-py_3",
+    "type": 1
+  },
+  "md5": "de00994d4b9b843598b117e4bd3cb034",
+  "name": "functools32",
+  "noarch": "python",
+  "package_tarball_full_path": "/Applications/anaconda3/pkgs/functools32-3.2.3.2-py_3.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/functools32-3.2.3.post2-py2.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "c1ccf0e7e94fb2d75c4fbba97f6a3c82a8cb6c4bca77de8ecb9eb92e3d75b4df",
+        "sha256_in_prefix": "c1ccf0e7e94fb2d75c4fbba97f6a3c82a8cb6c4bca77de8ecb9eb92e3d75b4df",
+        "size_in_bytes": 527
+      },
+      {
+        "_path": "site-packages/functools32-3.2.3.post2-py2.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "d12ad3c16d98d10ae427600aa7cb813f8856f5ad652150012bda0c8f281883d8",
+        "sha256_in_prefix": "d12ad3c16d98d10ae427600aa7cb813f8856f5ad652150012bda0c8f281883d8",
+        "size_in_bytes": 363
+      },
+      {
+        "_path": "site-packages/functools32-3.2.3.post2-py2.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/functools32-3.2.3.post2-py2.7.egg-info/installed-files.txt",
+        "path_type": "hardlink",
+        "sha256": "2047ef6f9b1e468b86acffc777069105abe33f3a664efe372052e0b3106299a6",
+        "sha256_in_prefix": "2047ef6f9b1e468b86acffc777069105abe33f3a664efe372052e0b3106299a6",
+        "size_in_bytes": 298
+      },
+      {
+        "_path": "site-packages/functools32-3.2.3.post2-py2.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a8e703e1e7b8cdefb6bfc5a567788b4274aea5cbf2bb83a582816ea064585ff2",
+        "sha256_in_prefix": "a8e703e1e7b8cdefb6bfc5a567788b4274aea5cbf2bb83a582816ea064585ff2",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "site-packages/functools32/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1177784b9b3ba3bcc5193d08353e11c6e57cf3d60a3216c24b8de85fe4664411",
+        "sha256_in_prefix": "1177784b9b3ba3bcc5193d08353e11c6e57cf3d60a3216c24b8de85fe4664411",
+        "size_in_bytes": 27
+      },
+      {
+        "_path": "site-packages/functools32/_dummy_thread32.py",
+        "path_type": "hardlink",
+        "sha256": "02704fb0fdee74acd645b7a6db133e408e267452e46899ca7b64a355a72e05bd",
+        "sha256_in_prefix": "02704fb0fdee74acd645b7a6db133e408e267452e46899ca7b64a355a72e05bd",
+        "size_in_bytes": 4977
+      },
+      {
+        "_path": "site-packages/functools32/functools32.py",
+        "path_type": "hardlink",
+        "sha256": "f9992d909008f6a753f664343a1a805effc841e1ef55f517de1f09d384016050",
+        "sha256_in_prefix": "f9992d909008f6a753f664343a1a805effc841e1ef55f517de1f09d384016050",
+        "size_in_bytes": 16101
+      },
+      {
+        "_path": "site-packages/functools32/reprlib32.py",
+        "path_type": "hardlink",
+        "sha256": "4e6ec93e3ced7e02ae3a509df216d53d4262df36587d84b7e7ce2cee09aae103",
+        "sha256_in_prefix": "4e6ec93e3ced7e02ae3a509df216d53d4262df36587d84b7e7ce2cee09aae103",
+        "size_in_bytes": 5126
+      },
+      {
+        "_path": "lib/python2.7/site-packages/functools32/__init__.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/functools32/_dummy_thread32.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/functools32/functools32.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/functools32/reprlib32.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "dafa9332a5ae01d77e45d8480eba7472d49adebee72ab6b2d5ae54f84c7b847c",
+  "size": 15322,
+  "subdir": "noarch",
+  "timestamp": 1537898272901,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/functools32-3.2.3.2-py_3.tar.bz2",
+  "version": "3.2.3.2"
+}

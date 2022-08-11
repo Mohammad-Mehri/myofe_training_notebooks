@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: dijitso
+Version: 2017.1.0
+Summary: Distributed just-in-time building of shared libraries
+Home-page: https://bitbucket.org/fenics-project/dijitso/
+Author: Martin Sandve Alnæs
+Author-email: martinal@simula.no
+License: UNKNOWN
+Download-URL: https://bitbucket.org/fenics-project/dijitso/downloads/dijitso-2017.1.0.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

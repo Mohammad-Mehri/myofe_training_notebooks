@@ -1,0 +1,104 @@
+{
+  "build": "py27h0a44026_1000",
+  "build_number": 1000,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [
+    "python_abi * *_cp27m"
+  ],
+  "depends": [
+    "libcxx >=4.0.1",
+    "python >=2.7,<2.8.0a0"
+  ],
+  "extracted_package_dir": "/Applications/anaconda3/pkgs/sip-4.18.1-py27h0a44026_1000",
+  "features": "",
+  "files": [
+    "bin/sip",
+    "include/python2.7/sip.h",
+    "lib/python2.7/site-packages/sip.pyi",
+    "lib/python2.7/site-packages/sip.so",
+    "lib/python2.7/site-packages/sipconfig.py",
+    "lib/python2.7/site-packages/sipconfig.pyc",
+    "lib/python2.7/site-packages/sipdistutils.py",
+    "lib/python2.7/site-packages/sipdistutils.pyc"
+  ],
+  "fn": "sip-4.18.1-py27h0a44026_1000.tar.bz2",
+  "license": "GPL-3.0",
+  "link": {
+    "source": "/Applications/anaconda3/pkgs/sip-4.18.1-py27h0a44026_1000",
+    "type": 1
+  },
+  "md5": "44e36fa5c36a3cac96b223bb2a0c79ec",
+  "name": "sip",
+  "package_tarball_full_path": "/Applications/anaconda3/pkgs/sip-4.18.1-py27h0a44026_1000.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/sip",
+        "path_type": "hardlink",
+        "sha256": "0249a1e110ea2563d95e4bdfe9ed455956c227f981adb2b602c9d1f8545c1db9",
+        "sha256_in_prefix": "0249a1e110ea2563d95e4bdfe9ed455956c227f981adb2b602c9d1f8545c1db9",
+        "size_in_bytes": 333596
+      },
+      {
+        "_path": "include/python2.7/sip.h",
+        "path_type": "hardlink",
+        "sha256": "4bb5b5668ccb46db3285977936a0cce3c35971308a0cc771eec423077a2bb617",
+        "sha256_in_prefix": "4bb5b5668ccb46db3285977936a0cce3c35971308a0cc771eec423077a2bb617",
+        "size_in_bytes": 56263
+      },
+      {
+        "_path": "lib/python2.7/site-packages/sip.pyi",
+        "path_type": "hardlink",
+        "sha256": "61bfca5a13eeb20c7f282bdf9d399fa921509b6e23d7f1169ea13c9090d1de35",
+        "sha256_in_prefix": "61bfca5a13eeb20c7f282bdf9d399fa921509b6e23d7f1169ea13c9090d1de35",
+        "size_in_bytes": 2801
+      },
+      {
+        "_path": "lib/python2.7/site-packages/sip.so",
+        "path_type": "hardlink",
+        "sha256": "fef5073149f2f70847ebe283c699e7404e812b4ce3feffcfe00bbc655b3127b8",
+        "sha256_in_prefix": "fef5073149f2f70847ebe283c699e7404e812b4ce3feffcfe00bbc655b3127b8",
+        "size_in_bytes": 110872
+      },
+      {
+        "_path": "lib/python2.7/site-packages/sipconfig.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "8c6864f10a0a31e4b254f40aa6821238c789d661f461bc124d143f20dc9eb2b6",
+        "sha256_in_prefix": "bcd76f14060c7687d1d7d47f4633471b1373c84d2fc9a8212abf00cdb12bd123",
+        "size_in_bytes": 96550
+      },
+      {
+        "_path": "lib/python2.7/site-packages/sipconfig.pyc",
+        "path_type": "hardlink",
+        "sha256": "44e51b46d8a43694826ee55dc7e33cff7d01a964beec1ef31422d74e959921a3",
+        "sha256_in_prefix": "44e51b46d8a43694826ee55dc7e33cff7d01a964beec1ef31422d74e959921a3",
+        "size_in_bytes": 73354
+      },
+      {
+        "_path": "lib/python2.7/site-packages/sipdistutils.py",
+        "path_type": "hardlink",
+        "sha256": "24e71a82ecf970aee1d609bbb7eab88fe5eb91ef589276f5dfb6dd388297fd79",
+        "sha256_in_prefix": "24e71a82ecf970aee1d609bbb7eab88fe5eb91ef589276f5dfb6dd388297fd79",
+        "size_in_bytes": 6041
+      },
+      {
+        "_path": "lib/python2.7/site-packages/sipdistutils.pyc",
+        "path_type": "hardlink",
+        "sha256": "6bf937f8c69380a3c39be0c701136e39bdcfa8a69c810fdc6001c427ca64ecd1",
+        "sha256_in_prefix": "6bf937f8c69380a3c39be0c701136e39bdcfa8a69c810fdc6001c427ca64ecd1",
+        "size_in_bytes": 5726
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "aa810161caad6fd03def007edf2a67f6b59e6628c7461323d303d24b4958315a",
+  "size": 248935,
+  "subdir": "osx-64",
+  "timestamp": 1545178742092,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/sip-4.18.1-py27h0a44026_1000.tar.bz2",
+  "version": "4.18.1"
+}

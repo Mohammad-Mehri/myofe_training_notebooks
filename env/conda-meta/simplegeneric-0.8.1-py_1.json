@@ -1,0 +1,90 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/Applications/anaconda3/pkgs/simplegeneric-0.8.1-py_1",
+  "features": "",
+  "files": [
+    "lib/python2.7/site-packages/simplegeneric-0.8.1-py2.7.egg-info/PKG-INFO",
+    "lib/python2.7/site-packages/simplegeneric-0.8.1-py2.7.egg-info/SOURCES.txt",
+    "lib/python2.7/site-packages/simplegeneric-0.8.1-py2.7.egg-info/dependency_links.txt",
+    "lib/python2.7/site-packages/simplegeneric-0.8.1-py2.7.egg-info/installed-files.txt",
+    "lib/python2.7/site-packages/simplegeneric-0.8.1-py2.7.egg-info/top_level.txt",
+    "lib/python2.7/site-packages/simplegeneric.py",
+    "lib/python2.7/site-packages/simplegeneric.pyc"
+  ],
+  "fn": "simplegeneric-0.8.1-py_1.tar.bz2",
+  "license": "Zope Public",
+  "link": {
+    "source": "/Applications/anaconda3/pkgs/simplegeneric-0.8.1-py_1",
+    "type": 1
+  },
+  "md5": "a561caf8601e8d85547c77a54ee99333",
+  "name": "simplegeneric",
+  "noarch": "python",
+  "package_tarball_full_path": "/Applications/anaconda3/pkgs/simplegeneric-0.8.1-py_1.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/simplegeneric-0.8.1-py2.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "33844f71ba9cecea20fb77b63d2245c1f757319f065d3ae5800c917e74382636",
+        "sha256_in_prefix": "33844f71ba9cecea20fb77b63d2245c1f757319f065d3ae5800c917e74382636",
+        "size_in_bytes": 10802
+      },
+      {
+        "_path": "site-packages/simplegeneric-0.8.1-py2.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "fdce8930aa7ba023c1f9821bc7df3b84abb8ddb2664c970f36ce781bea79f276",
+        "sha256_in_prefix": "fdce8930aa7ba023c1f9821bc7df3b84abb8ddb2664c970f36ce781bea79f276",
+        "size_in_bytes": 210
+      },
+      {
+        "_path": "site-packages/simplegeneric-0.8.1-py2.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/simplegeneric-0.8.1-py2.7.egg-info/installed-files.txt",
+        "path_type": "hardlink",
+        "sha256": "f419d2d36b82b4314bd915c50e9f37ce2c70f35ece974827dfc0f02fc8daaa2a",
+        "sha256_in_prefix": "f419d2d36b82b4314bd915c50e9f37ce2c70f35ece974827dfc0f02fc8daaa2a",
+        "size_in_bytes": 97
+      },
+      {
+        "_path": "site-packages/simplegeneric-0.8.1-py2.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "cb2dca30718daffdb9d7eb991745904b609384ff7bbdb9c800a7200747e4d165",
+        "sha256_in_prefix": "cb2dca30718daffdb9d7eb991745904b609384ff7bbdb9c800a7200747e4d165",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "site-packages/simplegeneric.py",
+        "path_type": "hardlink",
+        "sha256": "a2ff8624f00f10111c3c54b2537dc7f38837bd77f947f66f860bb54b441d9780",
+        "sha256_in_prefix": "a2ff8624f00f10111c3c54b2537dc7f38837bd77f947f66f860bb54b441d9780",
+        "size_in_bytes": 2740
+      },
+      {
+        "_path": "lib/python2.7/site-packages/simplegeneric.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "149092b2b306ca9097c93715301454d7663d628fb8b5f935cbe8a650b56364fe",
+  "size": 6864,
+  "subdir": "noarch",
+  "timestamp": 1530899629183,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/simplegeneric-0.8.1-py_1.tar.bz2",
+  "version": "0.8.1"
+}

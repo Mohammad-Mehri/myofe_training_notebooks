@@ -1,0 +1,103 @@
+      subroutine FNCombineSetChildren(a,b,c,d,z)
+       FN a ! FN
+       FNCombineType b ! FNCombineType
+       FN c ! FN
+       FN d ! FN
+       integer z
+       end subroutine
+      subroutine FNCombineGetChildren(a,b,c,d,z)
+       FN a ! FN
+       FNCombineType b ! FNCombineType
+       FN c ! FN
+       FN d ! FN
+       integer z
+       end subroutine
+      subroutine FNPhiSetIndex(a,b,z)
+       FN a ! FN
+       PetscInt b ! PetscInt
+       integer z
+       end subroutine
+      subroutine FNPhiGetIndex(a,b,z)
+       FN a ! FN
+       PetscInt b ! PetscInt
+       integer z
+       end subroutine
+      subroutine FNRationalSetNumerator(a,b,c,z)
+       FN a ! FN
+       PetscInt b ! PetscInt
+       PetscScalar c ! PetscScalar
+       integer z
+       end subroutine
+      subroutine FNRationalGetNumerator(a,b,c,z)
+       FN a ! FN
+       PetscInt b ! PetscInt
+       PetscScalar c (*) ! PetscScalar
+       integer z
+       end subroutine
+      subroutine FNRationalSetDenominator(a,b,c,z)
+       FN a ! FN
+       PetscInt b ! PetscInt
+       PetscScalar c ! PetscScalar
+       integer z
+       end subroutine
+      subroutine FNRationalGetDenominator(a,b,c,z)
+       FN a ! FN
+       PetscInt b ! PetscInt
+       PetscScalar c (*) ! PetscScalar
+       integer z
+       end subroutine
+      subroutine FNCreate(a,b,z)
+       integer a ! MPI_Comm
+       FN b ! FN
+       integer z
+       end subroutine
+      subroutine FNSetScale(a,b,c,z)
+       FN a ! FN
+       PetscScalar b ! PetscScalar
+       PetscScalar c ! PetscScalar
+       integer z
+       end subroutine
+      subroutine FNGetScale(a,b,c,z)
+       FN a ! FN
+       PetscScalar b ! PetscScalar
+       PetscScalar c ! PetscScalar
+       integer z
+       end subroutine
+      subroutine FNEvaluateFunction(a,b,c,z)
+       FN a ! FN
+       PetscScalar b ! PetscScalar
+       PetscScalar c ! PetscScalar
+       integer z
+       end subroutine
+      subroutine FNEvaluateDerivative(a,b,c,z)
+       FN a ! FN
+       PetscScalar b ! PetscScalar
+       PetscScalar c ! PetscScalar
+       integer z
+       end subroutine
+      subroutine FNEvaluateFunctionMat(a,b,c,z)
+       FN a ! FN
+       Mat b ! Mat
+       Mat c ! Mat
+       integer z
+       end subroutine
+      subroutine FNEvaluateFunctionMatVec(a,b,c,z)
+       FN a ! FN
+       Mat b ! Mat
+       Vec c ! Vec
+       integer z
+       end subroutine
+      subroutine FNSetFromOptions(a,z)
+       FN a ! FN
+       integer z
+       end subroutine
+      subroutine FNDuplicate(a,b,c,z)
+       FN a ! FN
+       integer b ! MPI_Comm
+       FN c ! FN
+       integer z
+       end subroutine
+      subroutine FNDestroy(a,z)
+       FN a ! FN
+       integer z
+       end subroutine

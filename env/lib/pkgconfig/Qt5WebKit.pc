@@ -1,0 +1,14 @@
+prefix=/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt
+
+
+Name: Qt5 WebKit
+Description: Qt WebKit module
+Version: 5.6.2
+Libs: -L${libdir} -lQt5WebKit 
+Libs.private: -L/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/lib -lQt5Gui -framework DiskArbitration -framework IOKit -lQt5Network -lQt5Core -framework Carbon -framework AppKit -Wl,-force_load,/Users/distiller/miniconda3/conda-bld/qt_1548883576517/work/qtwebkit/Source/WebKit/release/libWebKit1.a -L/Users/distiller/miniconda3/conda-bld/qt_1548883576517/work/qtwebkit/Source/WebKit/release -Wl,-force_load,/Users/distiller/miniconda3/conda-bld/qt_1548883576517/work/qtwebkit/Source/WebKit2/release/libWebKit2.a -L/Users/distiller/miniconda3/conda-bld/qt_1548883576517/work/qtwebkit/Source/WebKit2/release -Wl,-force_load,/Users/distiller/miniconda3/conda-bld/qt_1548883576517/work/qtwebkit/Source/WebCore/release/libWebCore.a -L/Users/distiller/miniconda3/conda-bld/qt_1548883576517/work/qtwebkit/Source/WebCore/release -lxml2 -lxslt -lz -framework IOSurface -framework CoreFoundation -lsqlite3 -ljpeg -lpng -framework IOKit -Wl,-force_load,/Users/distiller/miniconda3/conda-bld/qt_1548883576517/work/qtwebkit/Source/ThirdParty/ANGLE/release/libANGLE.a -L/Users/distiller/miniconda3/conda-bld/qt_1548883576517/work/qtwebkit/Source/ThirdParty/ANGLE/release -Wl,-force_load,/Users/distiller/miniconda3/conda-bld/qt_1548883576517/work/qtwebkit/Source/ThirdParty/leveldb/release/libleveldb.a -L/Users/distiller/miniconda3/conda-bld/qt_1548883576517/work/qtwebkit/Source/ThirdParty/leveldb/release -Wl,-force_load,/Users/distiller/miniconda3/conda-bld/qt_1548883576517/work/qtwebkit/Source/JavaScriptCore/release/libJavaScriptCore.a -L/Users/distiller/miniconda3/conda-bld/qt_1548883576517/work/qtwebkit/Source/JavaScriptCore/release -Wl,-force_load,/Users/distiller/miniconda3/conda-bld/qt_1548883576517/work/qtwebkit/Source/WTF/release/libWTF.a -L/Users/distiller/miniconda3/conda-bld/qt_1548883576517/work/qtwebkit/Source/WTF/release -licucore -L/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/lib -lQt5Quick -L/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/lib -framework DiskArbitration -L/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/lib -lQt5WebChannel -lQt5Qml -L/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/lib -lQt5Multimedia -lQt5Network -lQt5Gui -lQt5Sql -lQt5Core -framework OpenGL -framework AGL  
+Cflags: -I${includedir}/QtWebKit -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Network
+

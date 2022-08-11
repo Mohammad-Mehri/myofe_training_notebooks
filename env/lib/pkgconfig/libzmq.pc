@@ -1,0 +1,12 @@
+prefix=/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.2
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++  -lpthread
+Requires.private:  libsodium
+Cflags: -I${includedir} 

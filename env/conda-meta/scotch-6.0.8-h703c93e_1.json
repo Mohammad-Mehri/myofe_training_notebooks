@@ -1,0 +1,457 @@
+{
+  "build": "h703c93e_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/Applications/anaconda3/pkgs/scotch-6.0.8-h703c93e_1",
+  "features": "",
+  "files": [
+    "bin/acpl",
+    "bin/amk_ccc",
+    "bin/amk_fft2",
+    "bin/amk_grf",
+    "bin/amk_hy",
+    "bin/amk_m2",
+    "bin/amk_p2",
+    "bin/atst",
+    "bin/gbase",
+    "bin/gcv",
+    "bin/gmap",
+    "bin/gmk_hy",
+    "bin/gmk_m2",
+    "bin/gmk_m3",
+    "bin/gmk_msh",
+    "bin/gmk_ub2",
+    "bin/gmtst",
+    "bin/gord",
+    "bin/gotst",
+    "bin/gout",
+    "bin/gpart",
+    "bin/gscat",
+    "bin/gtst",
+    "bin/mcv",
+    "bin/mmk_m2",
+    "bin/mmk_m3",
+    "bin/mord",
+    "bin/mtst",
+    "bin/scotch_esmumps",
+    "include/esmumps.h",
+    "include/scotch.h",
+    "include/scotch/metis.h",
+    "include/scotchf.h",
+    "lib/libesmumps-6.dylib",
+    "lib/libesmumps.dylib",
+    "lib/libscotch-6.dylib",
+    "lib/libscotch.dylib",
+    "lib/libscotcherr-6.dylib",
+    "lib/libscotcherr.dylib",
+    "lib/libscotcherrexit-6.dylib",
+    "lib/libscotcherrexit.dylib",
+    "lib/libscotchmetis-6.dylib",
+    "lib/libscotchmetis.dylib"
+  ],
+  "fn": "scotch-6.0.8-h703c93e_1.tar.bz2",
+  "license": "CeCILL-C",
+  "link": {
+    "source": "/Applications/anaconda3/pkgs/scotch-6.0.8-h703c93e_1",
+    "type": 1
+  },
+  "md5": "f35a14b172ed59f8242d7b6afc221c28",
+  "name": "scotch",
+  "package_tarball_full_path": "/Applications/anaconda3/pkgs/scotch-6.0.8-h703c93e_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/acpl",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "6b08cc08f0577991a577485ba9f5998e4114589169e32e6d1037a204b381e259",
+        "sha256_in_prefix": "d2329f36fdaff5f7b532f1d26d3e228542964bb5f7570a13364c6ecf31dcb72e",
+        "size_in_bytes": 13644
+      },
+      {
+        "_path": "bin/amk_ccc",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "b5967cf8bfa49f33f2e16606fcd6c04435d26423a94b24651e4340d27391d053",
+        "sha256_in_prefix": "476aba72537646b893daf9d697fa35a13d0d08a94d985de1c7e4f5fcd7dd1a4a",
+        "size_in_bytes": 13448
+      },
+      {
+        "_path": "bin/amk_fft2",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "61a6cffce6ddfd8d18a6ab2746f76e4787fee8844e78c6e3dcdeee37a607f089",
+        "sha256_in_prefix": "c422df826c0a404cd68508987f56294c6bf23170094fd24c013713f9378a14bc",
+        "size_in_bytes": 13448
+      },
+      {
+        "_path": "bin/amk_grf",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "56be980c13bd5459506b0859e641c0b99fa45475f19d33ef1e148d417a9fb5e4",
+        "sha256_in_prefix": "b762b4b52fe92e22981c8eecddb803ec7b5ef6413d81402160093cee6c77e8c7",
+        "size_in_bytes": 14388
+      },
+      {
+        "_path": "bin/amk_hy",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "f03845bc97bfca1b080b16e04af2b010fa0812b9231a5b41131cfe36ea1fe478",
+        "sha256_in_prefix": "c1fe2173edf19fe90f51792e3d91d53c32f4189f90d1afebd78e653713de8510",
+        "size_in_bytes": 13304
+      },
+      {
+        "_path": "bin/amk_m2",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "93eb90a3ed0ba9ad250fbd7f39b0846d0a283b9d6485a971d4a67a9e80f777db",
+        "sha256_in_prefix": "81d012076b63bd047e0b95572e7747b7389dd0d819868eff259b4a36a6da362f",
+        "size_in_bytes": 13780
+      },
+      {
+        "_path": "bin/amk_p2",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "aa22dd0f3f2f8335dbf01b27beab6fbe9b8743ee9111ad3e42ee0567036556b1",
+        "sha256_in_prefix": "a52024a236d9319c54718f1b935ca87d979dafce3d45426a217fcaaaab342d23",
+        "size_in_bytes": 13256
+      },
+      {
+        "_path": "bin/atst",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "2054371b60314733f585de197cffb1b33699e332e1bdf0e9fea01873ab761b2c",
+        "sha256_in_prefix": "797155e756e32b750df73b2e908424439881eed2831cf507f2f6f8d3b3bb9cff",
+        "size_in_bytes": 13932
+      },
+      {
+        "_path": "bin/gbase",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "70252b3c6262666812b17e52237d7f4e7feb11e4923582a0526cf8de91b75815",
+        "sha256_in_prefix": "df32c8a3d6e8c75b0c8f0473291018d9e2bcad8d6569e688b5499f932b9f517c",
+        "size_in_bytes": 13644
+      },
+      {
+        "_path": "bin/gcv",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "25e216ab6dfd627074dacde6ee53ee7c5cc220ade8f48d5255740a355af3cea6",
+        "sha256_in_prefix": "199af028143b0f17d37d7e7d76ff299506843601d468e2be83b3883529d432e3",
+        "size_in_bytes": 14268
+      },
+      {
+        "_path": "bin/gmap",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "00dfa4622baecf4c257bdc21402ed39fa3505acc8abf53197edc1e839568741a",
+        "sha256_in_prefix": "d40ebeb261898dcaa28397f9ee3243a285f67ed4cb9d405d5c12d4db53d453ce",
+        "size_in_bytes": 24508
+      },
+      {
+        "_path": "bin/gmk_hy",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "0f103f4d9b8e4740b9bf2f26821ec9f145c7f8fa8637ba7f8ab4dc12a07de4f9",
+        "sha256_in_prefix": "ba2e46284cbe186491dc5acb638ac4153bf4687b4fbcd99bc18cc2bb08a266e4",
+        "size_in_bytes": 13344
+      },
+      {
+        "_path": "bin/gmk_m2",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "4e1fa0ae620624e88a66196d0198f4c8e153fc91dd16eb38d30b655ad211620a",
+        "sha256_in_prefix": "ce1c951c40873a74d48803fc5d5eb5659786224656372419cb512aee5e4cb66d",
+        "size_in_bytes": 17448
+      },
+      {
+        "_path": "bin/gmk_m3",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "0554997621da9edbaf5594f967ace61950d82e02c74461827eccd05041a8ef52",
+        "sha256_in_prefix": "b2c4ae9507e023bf87c9275621f8290035f677ce22501f681efd793c9ccfd50b",
+        "size_in_bytes": 17580
+      },
+      {
+        "_path": "bin/gmk_msh",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "14e6828db2a5741fa5b16ac44c0b4209b89119853372cc8b670ebcb581972992",
+        "sha256_in_prefix": "6584db959cf8cd4c47ff6fd007b22e01d40657ec09543ac85c5e3cfaf3f79515",
+        "size_in_bytes": 13796
+      },
+      {
+        "_path": "bin/gmk_ub2",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "9a068be6a6b51c8a45a3cd20be3fd8c68fc033754f575cfdf3580173c978bb0d",
+        "sha256_in_prefix": "7f1664f25e60603c955164daff70c59c684592c9713731263ba4cd368d279237",
+        "size_in_bytes": 13428
+      },
+      {
+        "_path": "bin/gmtst",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "015438b3a23b4b64a20f1c09f9c99f135abfa0c7491351c8b16639dba464273a",
+        "sha256_in_prefix": "ccccd6e517d111001fa015793f10121828b92cb59cb900d4c019c47a6eea9893",
+        "size_in_bytes": 14140
+      },
+      {
+        "_path": "bin/gord",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "f707362f318ffa3d01e4980cfce652cd0be65dad0af941721fc47223c84c1e67",
+        "sha256_in_prefix": "3769b929fd51247a22482038f398f145e7686c74ae0641d0fc5a34b5187c11e0",
+        "size_in_bytes": 18740
+      },
+      {
+        "_path": "bin/gotst",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "01bf3c0d0cd55f8db8b96fe227b178eadc8b73730689ecf9826b0c4bf7c95e13",
+        "sha256_in_prefix": "4f2c5435501773d212bb925c64818ff1e78e17d5d459dc0daaf20dee1f6702db",
+        "size_in_bytes": 18380
+      },
+      {
+        "_path": "bin/gout",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "5377901fa6c0621ed881a182b80b2f55dd8b0f997cd06d21d551d572176476b9",
+        "sha256_in_prefix": "ffde8acac073ec5c0d0da7796b63fbc623c2381edc8ab72679261035dfe0dcf8",
+        "size_in_bytes": 36036
+      },
+      {
+        "_path": "bin/gpart",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "720744fc02eade794445051b48c169872e134c0dfa319f6baceafd4f504cdd4d",
+        "sha256_in_prefix": "66b702a9fd888dd019c8f272333bc807cb8a880156e5d089699cff1f1e224349",
+        "size_in_bytes": 24588
+      },
+      {
+        "_path": "bin/gscat",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "99367f4c61739057deca44d00b86894c06dc889939cc478af678eee4d4e160a9",
+        "sha256_in_prefix": "4cbc4cf0d424d00e767a37146ea414bea64853d1a83a9a5ff2ae199882e49455",
+        "size_in_bytes": 13884
+      },
+      {
+        "_path": "bin/gtst",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "21656cf7471d90c9b47bd2c5248951a4ae82ac39e77891eb1cf30a563b604c5e",
+        "sha256_in_prefix": "efd73f774c81a2dffece701594353529802b5c147f92a48b19ccfeb81b917aed",
+        "size_in_bytes": 13764
+      },
+      {
+        "_path": "bin/mcv",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "2f86239a8ef5263c6281e89d4e8a834969904ef610536342399d149b94fb21c0",
+        "sha256_in_prefix": "5351c3c7838c75b81fdb3898437aea56f1c9042e87c9f15a23712d1148be4724",
+        "size_in_bytes": 13964
+      },
+      {
+        "_path": "bin/mmk_m2",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "411833a96dc149073ff618cf248af1abd0d05c9859dbe7fbfe24c6dc9c01bb99",
+        "sha256_in_prefix": "55f8086e8e7779abb5dc5c727b34a4f1ce785d039b14892e1c9c1b10887dac2e",
+        "size_in_bytes": 13336
+      },
+      {
+        "_path": "bin/mmk_m3",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "368be7402d2cebd2cf9f4c20c577a86bb970ef31381160f9ff594ed71ffecb4c",
+        "sha256_in_prefix": "909189be77a29b398e8fec4514bca46b2589b2bd4e96c2c74a86d8c588d35d2e",
+        "size_in_bytes": 17564
+      },
+      {
+        "_path": "bin/mord",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "5e23bf5f8f51a7c997397e2276319c579de824fe66a1c92cd39adf8d7340e1a4",
+        "sha256_in_prefix": "f3a4ea2b648e63fca4ab518113904d0b234802827e1469368f5d3fc6fe298039",
+        "size_in_bytes": 18820
+      },
+      {
+        "_path": "bin/mtst",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "e21335d166e157bb96b3a6c359b0c4b1c96155ac0c7a85b8105b4173fe36247e",
+        "sha256_in_prefix": "eb6d64e32d0c36a365771d01fb9bf345cf72633ebfc8f9793ff24f1349354810",
+        "size_in_bytes": 13748
+      },
+      {
+        "_path": "bin/scotch_esmumps",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "f779f86125cbc5b7abd905ea680d6f2d769709422dafd2967c05bf16d1c7126f",
+        "sha256_in_prefix": "81707b8144156561185b3596296977d9eebd4cd2f40774b7867e91e90d37306c",
+        "size_in_bytes": 13244
+      },
+      {
+        "_path": "include/esmumps.h",
+        "path_type": "hardlink",
+        "sha256": "a95286687ea3b31dce8e759ec27068a889c000d5f4c36be4b97b50fdfe66e6bf",
+        "sha256_in_prefix": "a95286687ea3b31dce8e759ec27068a889c000d5f4c36be4b97b50fdfe66e6bf",
+        "size_in_bytes": 3222
+      },
+      {
+        "_path": "include/scotch.h",
+        "path_type": "hardlink",
+        "sha256": "00dd4b654cfd1d7c45f531d58b06da03454bd5322aa84b136d6aa6bf63783113",
+        "sha256_in_prefix": "00dd4b654cfd1d7c45f531d58b06da03454bd5322aa84b136d6aa6bf63783113",
+        "size_in_bytes": 24789
+      },
+      {
+        "_path": "include/scotch/metis.h",
+        "path_type": "hardlink",
+        "sha256": "2f924510227b4e9d05a0443a2db12a483ee800781123e8bdeebda6e1e20f8f71",
+        "sha256_in_prefix": "2f924510227b4e9d05a0443a2db12a483ee800781123e8bdeebda6e1e20f8f71",
+        "size_in_bytes": 10568
+      },
+      {
+        "_path": "include/scotchf.h",
+        "path_type": "hardlink",
+        "sha256": "15c3a4ec9aa5efe4651f226637d5e711fe044a5d9d9d36d37f24c2c8875197fc",
+        "sha256_in_prefix": "15c3a4ec9aa5efe4651f226637d5e711fe044a5d9d9d36d37f24c2c8875197fc",
+        "size_in_bytes": 5572
+      },
+      {
+        "_path": "lib/libesmumps-6.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "fed35608da3ea2bec16ce7a4794a5a80d5878d6ee79e0170c8d8a47af6bedd92",
+        "sha256_in_prefix": "15b5a8ea243b00abc74f59f25a28eeb843b0f5a279989126adfb794ce9319ea7",
+        "size_in_bytes": 22964
+      },
+      {
+        "_path": "lib/libesmumps.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "fed35608da3ea2bec16ce7a4794a5a80d5878d6ee79e0170c8d8a47af6bedd92",
+        "sha256_in_prefix": "15b5a8ea243b00abc74f59f25a28eeb843b0f5a279989126adfb794ce9319ea7",
+        "size_in_bytes": 22964
+      },
+      {
+        "_path": "lib/libscotch-6.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "2145f11f2b21f4856a584253e80ef5aa75973426bb1c3fb772cd9180d968d445",
+        "sha256_in_prefix": "342e916c65f17c5c275b97e86c323e282dd07a398a29738760001d73190a8c0c",
+        "size_in_bytes": 549700
+      },
+      {
+        "_path": "lib/libscotch.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "2145f11f2b21f4856a584253e80ef5aa75973426bb1c3fb772cd9180d968d445",
+        "sha256_in_prefix": "342e916c65f17c5c275b97e86c323e282dd07a398a29738760001d73190a8c0c",
+        "size_in_bytes": 549700
+      },
+      {
+        "_path": "lib/libscotcherr-6.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "350c56f12990f8936cb6a744fa0a5e7e8021287a278b20b3b7acaa872da8f9f8",
+        "sha256_in_prefix": "3ed7dfca26a353202e3b75b0d103291ae0c5a2895034038f018818de2640eb4b",
+        "size_in_bytes": 13080
+      },
+      {
+        "_path": "lib/libscotcherr.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "350c56f12990f8936cb6a744fa0a5e7e8021287a278b20b3b7acaa872da8f9f8",
+        "sha256_in_prefix": "3ed7dfca26a353202e3b75b0d103291ae0c5a2895034038f018818de2640eb4b",
+        "size_in_bytes": 13080
+      },
+      {
+        "_path": "lib/libscotcherrexit-6.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "c889537296334fd4abede65a6745b8991d8b6440b764e36da26b5c62abe067d0",
+        "sha256_in_prefix": "a4251d261c39cb486aa0e7e5a24b600a7aa9cef84c7f863260940ee882ab4d2c",
+        "size_in_bytes": 13120
+      },
+      {
+        "_path": "lib/libscotcherrexit.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "c889537296334fd4abede65a6745b8991d8b6440b764e36da26b5c62abe067d0",
+        "sha256_in_prefix": "a4251d261c39cb486aa0e7e5a24b600a7aa9cef84c7f863260940ee882ab4d2c",
+        "size_in_bytes": 13120
+      },
+      {
+        "_path": "lib/libscotchmetis-6.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "105d47b284d127ffbc69095dda5bb85767274f4713aecb1b1b47666360854380",
+        "sha256_in_prefix": "cb1cc1da89ec1eae0ef2f15078898447e7c7f0c129ca1c38c86890fa6665111e",
+        "size_in_bytes": 26316
+      },
+      {
+        "_path": "lib/libscotchmetis.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/scotch-pkgs_1571384106523/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "105d47b284d127ffbc69095dda5bb85767274f4713aecb1b1b47666360854380",
+        "sha256_in_prefix": "cb1cc1da89ec1eae0ef2f15078898447e7c7f0c129ca1c38c86890fa6665111e",
+        "size_in_bytes": 26316
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "121dce7233ab470825b471293fde467e6e50d4d66324f0704960621dd010ef53",
+  "size": 1208899,
+  "subdir": "osx-64",
+  "timestamp": 1571384292152,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/scotch-6.0.8-h703c93e_1.tar.bz2",
+  "version": "6.0.8"
+}

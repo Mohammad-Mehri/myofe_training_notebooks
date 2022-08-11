@@ -1,0 +1,1320 @@
+{
+  "build": "blas_openblas_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "blas 1.* openblas",
+    "mpich >=3.2"
+  ],
+  "extracted_package_dir": "/Applications/anaconda3/pkgs/petsc-3.7.2-blas_openblas_0",
+  "features": "blas_openblas",
+  "files": [
+    "include/petsc.h",
+    "include/petsc/finclude/ftn-auto/petsc.h90",
+    "include/petsc/finclude/ftn-auto/petscao.h90",
+    "include/petsc/finclude/ftn-auto/petscdm.h90",
+    "include/petsc/finclude/ftn-auto/petscdmcomposite.h90",
+    "include/petsc/finclude/ftn-auto/petscdmda.h90",
+    "include/petsc/finclude/ftn-auto/petscdmforest.h90",
+    "include/petsc/finclude/ftn-auto/petscdmlabel.h90",
+    "include/petsc/finclude/ftn-auto/petscdmpatch.h90",
+    "include/petsc/finclude/ftn-auto/petscdmplex.h90",
+    "include/petsc/finclude/ftn-auto/petscdmredundant.h90",
+    "include/petsc/finclude/ftn-auto/petscdmshell.h90",
+    "include/petsc/finclude/ftn-auto/petscdraw.h90",
+    "include/petsc/finclude/ftn-auto/petscis.h90",
+    "include/petsc/finclude/ftn-auto/petscksp.h90",
+    "include/petsc/finclude/ftn-auto/petscmat.h90",
+    "include/petsc/finclude/ftn-auto/petscmatfd.h90",
+    "include/petsc/finclude/ftn-auto/petscmatorderings.h90",
+    "include/petsc/finclude/ftn-auto/petscpc.h90",
+    "include/petsc/finclude/ftn-auto/petscpcexotic.h90",
+    "include/petsc/finclude/ftn-auto/petscpcgasm.h90",
+    "include/petsc/finclude/ftn-auto/petscpcmg.h90",
+    "include/petsc/finclude/ftn-auto/petscpetscsf.h90",
+    "include/petsc/finclude/ftn-auto/petscpf.h90",
+    "include/petsc/finclude/ftn-auto/petscprofiling.h90",
+    "include/petsc/finclude/ftn-auto/petscsemilagrange.h90",
+    "include/petsc/finclude/ftn-auto/petscsnes.h90",
+    "include/petsc/finclude/ftn-auto/petscsnesfas.h90",
+    "include/petsc/finclude/ftn-auto/petscsys.h90",
+    "include/petsc/finclude/ftn-auto/petsctao.h90",
+    "include/petsc/finclude/ftn-auto/petsctaolinesearch.h90",
+    "include/petsc/finclude/ftn-auto/petscts.h90",
+    "include/petsc/finclude/ftn-auto/petscvec.h90",
+    "include/petsc/finclude/ftn-auto/petscviewer.h90",
+    "include/petsc/finclude/ftn-custom/petscdm.h90",
+    "include/petsc/finclude/ftn-custom/petscdmcomposite.h90",
+    "include/petsc/finclude/ftn-custom/petscdmda.h90",
+    "include/petsc/finclude/ftn-custom/petscdmdef.h90",
+    "include/petsc/finclude/ftn-custom/petscdmhide.h90",
+    "include/petsc/finclude/ftn-custom/petscdmplex.h90",
+    "include/petsc/finclude/ftn-custom/petscdmplexdef.h90",
+    "include/petsc/finclude/ftn-custom/petscdmredundant.h90",
+    "include/petsc/finclude/ftn-custom/petscdmshell.h90",
+    "include/petsc/finclude/ftn-custom/petscdt.h90",
+    "include/petsc/finclude/ftn-custom/petscdtdef.h90",
+    "include/petsc/finclude/ftn-custom/petscdthide.h90",
+    "include/petsc/finclude/ftn-custom/petscis.h90",
+    "include/petsc/finclude/ftn-custom/petscisdef.h90",
+    "include/petsc/finclude/ftn-custom/petscishide.h90",
+    "include/petsc/finclude/ftn-custom/petscksp.h90",
+    "include/petsc/finclude/ftn-custom/petsckspdef.h90",
+    "include/petsc/finclude/ftn-custom/petscksphide.h90",
+    "include/petsc/finclude/ftn-custom/petscmat.h90",
+    "include/petsc/finclude/ftn-custom/petscmatdef.h90",
+    "include/petsc/finclude/ftn-custom/petscmathide.h90",
+    "include/petsc/finclude/ftn-custom/petscpc.h90",
+    "include/petsc/finclude/ftn-custom/petscpcdef.h90",
+    "include/petsc/finclude/ftn-custom/petscpchide.h90",
+    "include/petsc/finclude/ftn-custom/petscsnes.h90",
+    "include/petsc/finclude/ftn-custom/petscsnesdef.h90",
+    "include/petsc/finclude/ftn-custom/petscsneshide.h90",
+    "include/petsc/finclude/ftn-custom/petscts.h90",
+    "include/petsc/finclude/ftn-custom/petsctsdef.h90",
+    "include/petsc/finclude/ftn-custom/petsctshide.h90",
+    "include/petsc/finclude/ftn-custom/petscvec.h90",
+    "include/petsc/finclude/ftn-custom/petscvecdef.h90",
+    "include/petsc/finclude/ftn-custom/petscvechide.h90",
+    "include/petsc/finclude/ftn-custom/petscviewer.h90",
+    "include/petsc/finclude/ftn-custom/petscviewerdef.h90",
+    "include/petsc/finclude/ftn-custom/petscviewerhide.h90",
+    "include/petsc/finclude/petsc.h",
+    "include/petsc/finclude/petsc.h90",
+    "include/petsc/finclude/petscao.h",
+    "include/petsc/finclude/petscaodef.h",
+    "include/petsc/finclude/petscbag.h",
+    "include/petsc/finclude/petscbagdef.h",
+    "include/petsc/finclude/petscdef.h",
+    "include/petsc/finclude/petscdm.h",
+    "include/petsc/finclude/petscdm.h90",
+    "include/petsc/finclude/petscdmcomposite.h90",
+    "include/petsc/finclude/petscdmda.h",
+    "include/petsc/finclude/petscdmda.h90",
+    "include/petsc/finclude/petscdmdadef.h",
+    "include/petsc/finclude/petscdmdef.h",
+    "include/petsc/finclude/petscdmplex.h",
+    "include/petsc/finclude/petscdmplex.h90",
+    "include/petsc/finclude/petscdmplexdef.h",
+    "include/petsc/finclude/petscdmredundant.h90",
+    "include/petsc/finclude/petscdmshell.h90",
+    "include/petsc/finclude/petscdraw.h",
+    "include/petsc/finclude/petscdrawdef.h",
+    "include/petsc/finclude/petscdt.h90",
+    "include/petsc/finclude/petscerror.h",
+    "include/petsc/finclude/petscerrordef.h",
+    "include/petsc/finclude/petscis.h",
+    "include/petsc/finclude/petscis.h90",
+    "include/petsc/finclude/petscisdef.h",
+    "include/petsc/finclude/petscksp.h",
+    "include/petsc/finclude/petscksp.h90",
+    "include/petsc/finclude/petsckspdef.h",
+    "include/petsc/finclude/petsclog.h",
+    "include/petsc/finclude/petsclogdef.h",
+    "include/petsc/finclude/petscmat.h",
+    "include/petsc/finclude/petscmat.h90",
+    "include/petsc/finclude/petscmatdef.h",
+    "include/petsc/finclude/petscmatfactorinfosize.h",
+    "include/petsc/finclude/petscmatinfosize.h",
+    "include/petsc/finclude/petscpc.h",
+    "include/petsc/finclude/petscpc.h90",
+    "include/petsc/finclude/petscpcdef.h",
+    "include/petsc/finclude/petscsnes.h",
+    "include/petsc/finclude/petscsnes.h90",
+    "include/petsc/finclude/petscsnesdef.h",
+    "include/petsc/finclude/petscsnesfas.h",
+    "include/petsc/finclude/petscsnesfasdef.h",
+    "include/petsc/finclude/petscsys.h",
+    "include/petsc/finclude/petscsysdef.h",
+    "include/petsc/finclude/petsctao.h",
+    "include/petsc/finclude/petsctaodef.h",
+    "include/petsc/finclude/petscts.h",
+    "include/petsc/finclude/petscts.h90",
+    "include/petsc/finclude/petsctsdef.h",
+    "include/petsc/finclude/petscvec.h",
+    "include/petsc/finclude/petscvec.h90",
+    "include/petsc/finclude/petscvecdef.h",
+    "include/petsc/finclude/petscviewer.h",
+    "include/petsc/finclude/petscviewer.h90",
+    "include/petsc/finclude/petscviewerdef.h",
+    "include/petsc/mpiuni/mpi.h",
+    "include/petsc/mpiuni/mpif.h",
+    "include/petsc/private/bagimpl.h",
+    "include/petsc/private/characteristicimpl.h",
+    "include/petsc/private/dmdaimpl.h",
+    "include/petsc/private/dmforestimpl.h",
+    "include/petsc/private/dmimpl.h",
+    "include/petsc/private/dmlabelimpl.h",
+    "include/petsc/private/dmmbimpl.h",
+    "include/petsc/private/dmnetworkimpl.h",
+    "include/petsc/private/dmpatchimpl.h",
+    "include/petsc/private/dmpleximpl.h",
+    "include/petsc/private/drawimpl.h",
+    "include/petsc/private/dtimpl.h",
+    "include/petsc/private/fortranimpl.h",
+    "include/petsc/private/isimpl.h",
+    "include/petsc/private/kernels/blockinvert.h",
+    "include/petsc/private/kernels/blockmatmult.h",
+    "include/petsc/private/kernels/blocktranspose.h",
+    "include/petsc/private/kernels/petscaxpy.h",
+    "include/petsc/private/kspimpl.h",
+    "include/petsc/private/linesearchimpl.h",
+    "include/petsc/private/logimpl.h",
+    "include/petsc/private/matimpl.h",
+    "include/petsc/private/matorderimpl.h",
+    "include/petsc/private/pcgamgimpl.h",
+    "include/petsc/private/pcimpl.h",
+    "include/petsc/private/pcmgimpl.h",
+    "include/petsc/private/petscdsimpl.h",
+    "include/petsc/private/petscfeimpl.h",
+    "include/petsc/private/petscfptimpl.h",
+    "include/petsc/private/petscfvimpl.h",
+    "include/petsc/private/petscimpl.h",
+    "include/petsc/private/sfimpl.h",
+    "include/petsc/private/snesimpl.h",
+    "include/petsc/private/taoimpl.h",
+    "include/petsc/private/taolinesearchimpl.h",
+    "include/petsc/private/tsimpl.h",
+    "include/petsc/private/vecimpl.h",
+    "include/petsc/private/viewerimpl.h",
+    "include/petscao.h",
+    "include/petscbag.h",
+    "include/petscblaslapack.h",
+    "include/petscblaslapack_mangle.h",
+    "include/petscblaslapack_stdcall.h",
+    "include/petscbt.h",
+    "include/petsccharacteristic.h",
+    "include/petscconf.h",
+    "include/petscconfiginfo.h",
+    "include/petscctable.h",
+    "include/petsccuda.h",
+    "include/petsccusp.h",
+    "include/petscdm.h",
+    "include/petscdmcomposite.h",
+    "include/petscdmda.h",
+    "include/petscdmdatypes.h",
+    "include/petscdmforest.h",
+    "include/petscdmlabel.h",
+    "include/petscdmmoab.h",
+    "include/petscdmnetwork.h",
+    "include/petscdmpatch.h",
+    "include/petscdmplex.h",
+    "include/petscdmredundant.h",
+    "include/petscdmshell.h",
+    "include/petscdmsliced.h",
+    "include/petscdmtypes.h",
+    "include/petscdraw.h",
+    "include/petscdrawtypes.h",
+    "include/petscds.h",
+    "include/petscdstypes.h",
+    "include/petscdt.h",
+    "include/petscerror.h",
+    "include/petscfe.h",
+    "include/petscfetypes.h",
+    "include/petscfix.h",
+    "include/petscfv.h",
+    "include/petscfvtypes.h",
+    "include/petscis.h",
+    "include/petscistypes.h",
+    "include/petscksp.h",
+    "include/petsclog.h",
+    "include/petscmachineinfo.h",
+    "include/petscmat.h",
+    "include/petscmatelemental.h",
+    "include/petscmath.h",
+    "include/petscmatlab.h",
+    "include/petscoptions.h",
+    "include/petscpc.h",
+    "include/petscpctypes.h",
+    "include/petscpf.h",
+    "include/petscsf.h",
+    "include/petscsftypes.h",
+    "include/petscsnes.h",
+    "include/petscsys.h",
+    "include/petsctao.h",
+    "include/petsctaolinesearch.h",
+    "include/petsctime.h",
+    "include/petscts.h",
+    "include/petscvalgrind.h",
+    "include/petscvec.h",
+    "include/petscversion.h",
+    "include/petscviennacl.h",
+    "include/petscviewer.h",
+    "include/petscviewerhdf5.h",
+    "include/petscviewersaws.h",
+    "include/petscviewertypes.h",
+    "include/petscwebclient.h",
+    "lib/libpetsc.3.7.2.dylib",
+    "lib/libpetsc.3.7.dylib",
+    "lib/libpetsc.dylib",
+    "lib/petsc/conf/adic.init",
+    "lib/petsc/conf/adicmastercontrol",
+    "lib/petsc/conf/adicmf.init",
+    "lib/petsc/conf/adicmfb.init",
+    "lib/petsc/conf/bfort-base.txt",
+    "lib/petsc/conf/bfort-mpi.txt",
+    "lib/petsc/conf/bfort-petsc.txt",
+    "lib/petsc/conf/modules/petsc/3.7.2",
+    "lib/petsc/conf/petscrules",
+    "lib/petsc/conf/petscvariables",
+    "lib/petsc/conf/rules",
+    "lib/petsc/conf/test",
+    "lib/petsc/conf/variables",
+    "lib/pkgconfig/PETSc.pc"
+  ],
+  "fn": "petsc-3.7.2-blas_openblas_0.tar.bz2",
+  "license": "BSD 2-Clause",
+  "link": {
+    "source": "/Applications/anaconda3/pkgs/petsc-3.7.2-blas_openblas_0",
+    "type": 1
+  },
+  "md5": "1367bb174ecf31d53e88095074210a1e",
+  "name": "petsc",
+  "package_tarball_full_path": "/Applications/anaconda3/pkgs/petsc-3.7.2-blas_openblas_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/petsc.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petsc.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscao.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscdm.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscdmcomposite.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscdmda.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscdmforest.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscdmlabel.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscdmpatch.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscdmplex.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscdmredundant.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscdmshell.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscdraw.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscis.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscksp.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscmat.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscmatfd.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscmatorderings.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscpc.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscpcexotic.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscpcgasm.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscpcmg.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscpetscsf.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscpf.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscprofiling.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscsemilagrange.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscsnes.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscsnesfas.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscsys.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petsctao.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petsctaolinesearch.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscts.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscvec.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-auto/petscviewer.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscdm.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscdmcomposite.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscdmda.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscdmdef.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscdmhide.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscdmplex.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscdmplexdef.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscdmredundant.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscdmshell.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscdt.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscdtdef.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscdthide.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscis.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscisdef.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscishide.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscksp.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petsckspdef.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscksphide.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscmat.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscmatdef.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscmathide.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscpc.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscpcdef.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscpchide.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscsnes.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscsnesdef.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscsneshide.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscts.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petsctsdef.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petsctshide.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscvec.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscvecdef.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscvechide.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscviewer.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscviewerdef.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/ftn-custom/petscviewerhide.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petsc.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petsc.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscao.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscaodef.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscbag.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscbagdef.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscdef.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscdm.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscdm.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscdmcomposite.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscdmda.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscdmda.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscdmdadef.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscdmdef.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscdmplex.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscdmplex.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscdmplexdef.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscdmredundant.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscdmshell.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscdraw.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscdrawdef.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscdt.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscerror.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscerrordef.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscis.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscis.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscisdef.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscksp.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscksp.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petsckspdef.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petsclog.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petsclogdef.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscmat.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscmat.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscmatdef.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscmatfactorinfosize.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscmatinfosize.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscpc.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscpc.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscpcdef.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscsnes.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscsnes.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscsnesdef.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscsnesfas.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscsnesfasdef.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscsys.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscsysdef.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petsctao.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petsctaodef.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscts.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscts.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petsctsdef.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscvec.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscvec.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscvecdef.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscviewer.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscviewer.h90",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/finclude/petscviewerdef.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/mpiuni/mpi.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/mpiuni/mpif.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/bagimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/characteristicimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/dmdaimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/dmforestimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/dmimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/dmlabelimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/dmmbimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/dmnetworkimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/dmpatchimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/dmpleximpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/drawimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/dtimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/fortranimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/isimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/kernels/blockinvert.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/kernels/blockmatmult.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/kernels/blocktranspose.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/kernels/petscaxpy.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/kspimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/linesearchimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/logimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/matimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/matorderimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/pcgamgimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/pcimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/pcmgimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/petscdsimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/petscfeimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/petscfptimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/petscfvimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/petscimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/sfimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/snesimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/taoimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/taolinesearchimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/tsimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/vecimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsc/private/viewerimpl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscao.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscbag.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscblaslapack.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscblaslapack_mangle.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscblaslapack_stdcall.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscbt.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsccharacteristic.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscconf.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscconfiginfo.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscctable.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsccuda.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsccusp.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscdm.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscdmcomposite.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscdmda.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscdmdatypes.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscdmforest.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscdmlabel.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscdmmoab.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscdmnetwork.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscdmpatch.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscdmplex.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscdmredundant.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscdmshell.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscdmsliced.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscdmtypes.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscdraw.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscdrawtypes.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscds.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscdstypes.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscdt.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscerror.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscfe.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscfetypes.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscfix.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscfv.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscfvtypes.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscis.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscistypes.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscksp.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsclog.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscmachineinfo.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscmat.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscmatelemental.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscmath.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscmatlab.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscoptions.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscpc.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscpctypes.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscpf.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscsf.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscsftypes.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscsnes.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscsys.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsctao.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsctaolinesearch.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petsctime.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscts.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscvalgrind.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscvec.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscversion.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscviennacl.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscviewer.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscviewerhdf5.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscviewersaws.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscviewertypes.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/petscwebclient.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libpetsc.3.7.2.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/travis/miniconda3/envs/_build_placehold_placehold_placehold_placehold_pla",
+        "sha256_in_prefix": "b18daeca69cd419af0302a16c4ed61cb0e093523f7c197e2cc2a8830e8d69021"
+      },
+      {
+        "_path": "lib/libpetsc.3.7.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/Users/travis/miniconda3/envs/_build_placehold_placehold_placehold_placehold_pla"
+      },
+      {
+        "_path": "lib/libpetsc.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/Users/travis/miniconda3/envs/_build_placehold_placehold_placehold_placehold_pla"
+      },
+      {
+        "_path": "lib/petsc/conf/adic.init",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/petsc/conf/adicmastercontrol",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/petsc/conf/adicmf.init",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/petsc/conf/adicmfb.init",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/petsc/conf/bfort-base.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/petsc/conf/bfort-mpi.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/petsc/conf/bfort-petsc.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/petsc/conf/modules/petsc/3.7.2",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "dde99f3be5b0784681fbbcdd738d6ceb2d529267ed3b74453f297d269d444f68"
+      },
+      {
+        "_path": "lib/petsc/conf/petscrules",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "7f0aac3be88314a1713c87623c270d4f32cf217b9431e881ac00c48ca3ae69f8"
+      },
+      {
+        "_path": "lib/petsc/conf/petscvariables",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "7b71c21cf8ecb1b5f661d410d0e9921e432f4a919cbcb57b9f2464ed080665d8"
+      },
+      {
+        "_path": "lib/petsc/conf/rules",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "7e69cb528daab41507b2405b5c8c4a95426c58367bc35f5c50bccacfb9a0a208"
+      },
+      {
+        "_path": "lib/petsc/conf/test",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/petsc/conf/variables",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "baa32f96c755b1540c96653ee99de9ec310c4c3277fb484ed9d2347adbcbd2fb"
+      },
+      {
+        "_path": "lib/pkgconfig/PETSc.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "32480ed703f4ef0276639c621e256e98fcc2962e93f791691ca5c21281ec7806"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c7579e6108057291905ecc608cdc61ed58f38ee8c2f130b5e95138714269b87a",
+  "size": 3755014,
+  "subdir": "osx-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/petsc-3.7.2-blas_openblas_0.tar.bz2",
+  "version": "3.7.2"
+}

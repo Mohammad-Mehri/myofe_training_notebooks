@@ -10,8 +10,5 @@ dependencies:
   - matplotlib
   - jupyter
   - jupyterlab
-  - fenics
+  - fenics=2017.1.0=np113py36_6
 
-  - pip
-  - pip:
-      - fenics-plotly

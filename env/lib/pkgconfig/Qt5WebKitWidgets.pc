@@ -1,0 +1,14 @@
+prefix=/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt
+
+
+Name: Qt5 WebKitWidgets
+Description: Qt WebKitWidgets module
+Version: 5.6.2
+Libs: -L${libdir} -lQt5WebKitWidgets 
+Libs.private: -L/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/lib -lQt5Widgets -framework DiskArbitration -framework IOKit -L/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/lib -lQt5WebKit -lQt5Gui -lQt5Network -lQt5Core -framework Carbon -framework AppKit -L/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/lib -lQt5MultimediaWidgets -L/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/lib -framework DiskArbitration -framework IOKit -lQt5Multimedia -lQt5PrintSupport -lQt5OpenGL -lQt5Widgets -lQt5WebKit -lQt5Gui -lQt5Network -lQt5Sql -lQt5Core -framework OpenGL -framework AGL  
+Cflags: -I${includedir}/QtWebKitWidgets -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Widgets Qt5Network Qt5WebKit
+

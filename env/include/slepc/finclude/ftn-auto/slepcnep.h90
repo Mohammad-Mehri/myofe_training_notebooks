@@ -1,0 +1,452 @@
+      subroutine NEPCreate(a,b,z)
+       integer a ! MPI_Comm
+       NEP b ! NEP
+       integer z
+       end subroutine
+      subroutine NEPReset(a,z)
+       NEP a ! NEP
+       integer z
+       end subroutine
+      subroutine NEPDestroy(a,z)
+       NEP a ! NEP
+       integer z
+       end subroutine
+      subroutine NEPSetBV(a,b,z)
+       NEP a ! NEP
+       BV b ! BV
+       integer z
+       end subroutine
+      subroutine NEPGetBV(a,b,z)
+       NEP a ! NEP
+       BV b ! BV
+       integer z
+       end subroutine
+      subroutine NEPSetRG(a,b,z)
+       NEP a ! NEP
+       RG b ! RG
+       integer z
+       end subroutine
+      subroutine NEPGetRG(a,b,z)
+       NEP a ! NEP
+       RG b ! RG
+       integer z
+       end subroutine
+      subroutine NEPSetDS(a,b,z)
+       NEP a ! NEP
+       DS b ! DS
+       integer z
+       end subroutine
+      subroutine NEPGetDS(a,b,z)
+       NEP a ! NEP
+       DS b ! DS
+       integer z
+       end subroutine
+      subroutine NEPRefineGetKSP(a,b,z)
+       NEP a ! NEP
+       KSP b ! KSP
+       integer z
+       end subroutine
+      subroutine NEPSetTarget(a,b,z)
+       NEP a ! NEP
+       PetscScalar b ! PetscScalar
+       integer z
+       end subroutine
+      subroutine NEPGetTarget(a,b,z)
+       NEP a ! NEP
+       PetscScalar b ! PetscScalar
+       integer z
+       end subroutine
+      subroutine NEPSetSplitOperator(a,b,c,d,e,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       Mat c (*) ! Mat
+       FN d (*) ! FN
+       MatStructure e ! MatStructure
+       integer z
+       end subroutine
+      subroutine NEPGetSplitOperatorTerm(a,b,c,d,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       Mat c ! Mat
+       FN d ! FN
+       integer z
+       end subroutine
+      subroutine NEPGetSplitOperatorInfo(a,b,c,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       MatStructure c ! MatStructure
+       integer z
+       end subroutine
+      subroutine NEPSolve(a,z)
+       NEP a ! NEP
+       integer z
+       end subroutine
+      subroutine NEPProjectOperator(a,b,c,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       PetscInt c ! PetscInt
+       integer z
+       end subroutine
+      subroutine NEPApplyFunction(a,b,c,d,e,f,g,z)
+       NEP a ! NEP
+       PetscScalar b ! PetscScalar
+       Vec c ! Vec
+       Vec d ! Vec
+       Vec e ! Vec
+       Mat f ! Mat
+       Mat g ! Mat
+       integer z
+       end subroutine
+      subroutine NEPApplyJacobian(a,b,c,d,e,f,z)
+       NEP a ! NEP
+       PetscScalar b ! PetscScalar
+       Vec c ! Vec
+       Vec d ! Vec
+       Vec e ! Vec
+       Mat f ! Mat
+       integer z
+       end subroutine
+      subroutine NEPGetIterationNumber(a,b,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       integer z
+       end subroutine
+      subroutine NEPGetConverged(a,b,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       integer z
+       end subroutine
+      subroutine NEPGetConvergedReason(a,b,z)
+       NEP a ! NEP
+       NEPConvergedReason b ! NEPConvergedReason
+       integer z
+       end subroutine
+      subroutine NEPGetEigenpair(a,b,c,d,e,f,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       PetscScalar c ! PetscScalar
+       PetscScalar d ! PetscScalar
+       Vec e ! Vec
+       Vec f ! Vec
+       integer z
+       end subroutine
+      subroutine NEPGetErrorEstimate(a,b,c,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       PetscReal c ! PetscReal
+       integer z
+       end subroutine
+      subroutine NEPComputeError(a,b,c,d,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       NEPErrorType c ! NEPErrorType
+       PetscReal d ! PetscReal
+       integer z
+       end subroutine
+      subroutine NEPComputeFunction(a,b,c,d,z)
+       NEP a ! NEP
+       PetscScalar b ! PetscScalar
+       Mat c ! Mat
+       Mat d ! Mat
+       integer z
+       end subroutine
+      subroutine NEPComputeJacobian(a,b,c,z)
+       NEP a ! NEP
+       PetscScalar b ! PetscScalar
+       Mat c ! Mat
+       integer z
+       end subroutine
+      subroutine NEPSetWorkVecs(a,b,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       integer z
+       end subroutine
+      subroutine NEPSetFromOptions(a,z)
+       NEP a ! NEP
+       integer z
+       end subroutine
+      subroutine NEPGetTolerances(a,b,c,z)
+       NEP a ! NEP
+       PetscReal b ! PetscReal
+       PetscInt c ! PetscInt
+       integer z
+       end subroutine
+      subroutine NEPSetTolerances(a,b,c,z)
+       NEP a ! NEP
+       PetscReal b ! PetscReal
+       PetscInt c ! PetscInt
+       integer z
+       end subroutine
+      subroutine NEPGetDimensions(a,b,c,d,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       PetscInt c ! PetscInt
+       PetscInt d ! PetscInt
+       integer z
+       end subroutine
+      subroutine NEPSetDimensions(a,b,c,d,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       PetscInt c ! PetscInt
+       PetscInt d ! PetscInt
+       integer z
+       end subroutine
+      subroutine NEPSetWhichEigenpairs(a,b,z)
+       NEP a ! NEP
+       NEPWhich b ! NEPWhich
+       integer z
+       end subroutine
+      subroutine NEPGetWhichEigenpairs(a,b,z)
+       NEP a ! NEP
+       NEPWhich b ! NEPWhich
+       integer z
+       end subroutine
+      subroutine NEPSetConvergenceTest(a,b,z)
+       NEP a ! NEP
+       NEPConv b ! NEPConv
+       integer z
+       end subroutine
+      subroutine NEPGetConvergenceTest(a,b,z)
+       NEP a ! NEP
+       NEPConv b ! NEPConv
+       integer z
+       end subroutine
+      subroutine NEPSetStoppingTest(a,b,z)
+       NEP a ! NEP
+       NEPStop b ! NEPStop
+       integer z
+       end subroutine
+      subroutine NEPGetStoppingTest(a,b,z)
+       NEP a ! NEP
+       NEPStop b ! NEPStop
+       integer z
+       end subroutine
+      subroutine NEPSetTrackAll(a,b,z)
+       NEP a ! NEP
+       PetscBool b ! PetscBool
+       integer z
+       end subroutine
+      subroutine NEPGetTrackAll(a,b,z)
+       NEP a ! NEP
+       PetscBool b ! PetscBool
+       integer z
+       end subroutine
+      subroutine NEPSetRefine(a,b,c,d,e,f,z)
+       NEP a ! NEP
+       NEPRefine b ! NEPRefine
+       PetscInt c ! PetscInt
+       PetscReal d ! PetscReal
+       PetscInt e ! PetscInt
+       NEPRefineScheme f ! NEPRefineScheme
+       integer z
+       end subroutine
+      subroutine NEPGetRefine(a,b,c,d,e,f,z)
+       NEP a ! NEP
+       NEPRefine b ! NEPRefine
+       PetscInt c ! PetscInt
+       PetscReal d ! PetscReal
+       PetscInt e ! PetscInt
+       NEPRefineScheme f ! NEPRefineScheme
+       integer z
+       end subroutine
+      subroutine NEPSetUp(a,z)
+       NEP a ! NEP
+       integer z
+       end subroutine
+      subroutine NEPSetInitialSpace(a,b,c,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       Vec c ! Vec
+       integer z
+       end subroutine
+      subroutine NEPAllocateSolution(a,b,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       integer z
+       end subroutine
+      subroutine NEPReasonViewFromOptions(a,z)
+       NEP a ! NEP
+       integer z
+       end subroutine
+      subroutine NEPErrorViewFromOptions(a,z)
+       NEP a ! NEP
+       integer z
+       end subroutine
+      subroutine NEPValuesViewFromOptions(a,z)
+       NEP a ! NEP
+       integer z
+       end subroutine
+      subroutine NEPVectorsViewFromOptions(a,z)
+       NEP a ! NEP
+       integer z
+       end subroutine
+      subroutine NEPMonitorCancel(a,z)
+       NEP a ! NEP
+       integer z
+       end subroutine
+      subroutine NEPNArnoldiSetKSP(a,b,z)
+       NEP a ! NEP
+       KSP b ! KSP
+       integer z
+       end subroutine
+      subroutine NEPNArnoldiGetKSP(a,b,z)
+       NEP a ! NEP
+       KSP b ! KSP
+       integer z
+       end subroutine
+      subroutine NEPRIISetMaximumIterations(a,b,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       integer z
+       end subroutine
+      subroutine NEPRIIGetMaximumIterations(a,b,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       integer z
+       end subroutine
+      subroutine NEPRIISetLagPreconditioner(a,b,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       integer z
+       end subroutine
+      subroutine NEPRIIGetLagPreconditioner(a,b,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       integer z
+       end subroutine
+      subroutine NEPRIISetConstCorrectionTol(a,b,z)
+       NEP a ! NEP
+       PetscBool b ! PetscBool
+       integer z
+       end subroutine
+      subroutine NEPRIIGetConstCorrectionTol(a,b,z)
+       NEP a ! NEP
+       PetscBool b ! PetscBool
+       integer z
+       end subroutine
+      subroutine NEPRIISetKSP(a,b,z)
+       NEP a ! NEP
+       KSP b ! KSP
+       integer z
+       end subroutine
+      subroutine NEPRIIGetKSP(a,b,z)
+       NEP a ! NEP
+       KSP b ! KSP
+       integer z
+       end subroutine
+      subroutine NEPInterpolSetDegree(a,b,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       integer z
+       end subroutine
+      subroutine NEPInterpolGetDegree(a,b,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       integer z
+       end subroutine
+      subroutine NEPInterpolSetPEP(a,b,z)
+       NEP a ! NEP
+       PEP b ! PEP
+       integer z
+       end subroutine
+      subroutine NEPInterpolGetPEP(a,b,z)
+       NEP a ! NEP
+       PEP b ! PEP
+       integer z
+       end subroutine
+      subroutine NEPNLEIGSSetRestart(a,b,z)
+       NEP a ! NEP
+       PetscReal b ! PetscReal
+       integer z
+       end subroutine
+      subroutine NEPNLEIGSGetRestart(a,b,z)
+       NEP a ! NEP
+       PetscReal b ! PetscReal
+       integer z
+       end subroutine
+      subroutine NEPNLEIGSSetLocking(a,b,z)
+       NEP a ! NEP
+       PetscBool b ! PetscBool
+       integer z
+       end subroutine
+      subroutine NEPNLEIGSGetLocking(a,b,z)
+       NEP a ! NEP
+       PetscBool b ! PetscBool
+       integer z
+       end subroutine
+      subroutine NEPNLEIGSSetInterpolation(a,b,c,z)
+       NEP a ! NEP
+       PetscReal b ! PetscReal
+       PetscInt c ! PetscInt
+       integer z
+       end subroutine
+      subroutine NEPNLEIGSGetInterpolation(a,b,c,z)
+       NEP a ! NEP
+       PetscReal b ! PetscReal
+       PetscInt c ! PetscInt
+       integer z
+       end subroutine
+      subroutine NEPNLEIGSSetTrueResidual(a,b,z)
+       NEP a ! NEP
+       PetscBool b ! PetscBool
+       integer z
+       end subroutine
+      subroutine NEPNLEIGSGetTrueResidual(a,b,z)
+       NEP a ! NEP
+       PetscBool b ! PetscBool
+       integer z
+       end subroutine
+      subroutine NEPCISSSetSizes(a,b,c,d,e,f,g,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       PetscInt c ! PetscInt
+       PetscInt d ! PetscInt
+       PetscInt e ! PetscInt
+       PetscInt f ! PetscInt
+       PetscBool g ! PetscBool
+       integer z
+       end subroutine
+      subroutine NEPCISSGetSizes(a,b,c,d,e,f,g,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       PetscInt c ! PetscInt
+       PetscInt d ! PetscInt
+       PetscInt e ! PetscInt
+       PetscInt f ! PetscInt
+       PetscBool g ! PetscBool
+       integer z
+       end subroutine
+      subroutine NEPCISSSetThreshold(a,b,c,z)
+       NEP a ! NEP
+       PetscReal b ! PetscReal
+       PetscReal c ! PetscReal
+       integer z
+       end subroutine
+      subroutine NEPCISSGetThreshold(a,b,c,z)
+       NEP a ! NEP
+       PetscReal b ! PetscReal
+       PetscReal c ! PetscReal
+       integer z
+       end subroutine
+      subroutine NEPCISSSetRefinement(a,b,c,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       PetscInt c ! PetscInt
+       integer z
+       end subroutine
+      subroutine NEPCISSGetRefinement(a,b,c,z)
+       NEP a ! NEP
+       PetscInt b ! PetscInt
+       PetscInt c ! PetscInt
+       integer z
+       end subroutine
+      subroutine NEPSLPSetEPS(a,b,z)
+       NEP a ! NEP
+       EPS b ! EPS
+       integer z
+       end subroutine
+      subroutine NEPSLPGetEPS(a,b,z)
+       NEP a ! NEP
+       EPS b ! EPS
+       integer z
+       end subroutine

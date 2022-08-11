@@ -1,0 +1,218 @@
+{
+  "build": "hdc02c5d_1001",
+  "build_number": 1001,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "libgfortran >=3.0.1,<4.0.0.a0"
+  ],
+  "extracted_package_dir": "/Applications/anaconda3/pkgs/openblas-0.3.3-hdc02c5d_1001",
+  "features": "",
+  "files": [
+    "include/cblas.h",
+    "include/f77blas.h",
+    "include/lapacke.h",
+    "include/lapacke_config.h",
+    "include/lapacke_mangling.h",
+    "include/lapacke_utils.h",
+    "include/openblas_config.h",
+    "lib/cmake/openblas/OpenBLASConfig.cmake",
+    "lib/cmake/openblas/OpenBLASConfigVersion.cmake",
+    "lib/libblas.a",
+    "lib/libblas.dylib",
+    "lib/libcblas.a",
+    "lib/libcblas.dylib",
+    "lib/liblapack.a",
+    "lib/liblapack.dylib",
+    "lib/libopenblas.a",
+    "lib/libopenblas.dylib",
+    "lib/libopenblasp-r0.3.3.a",
+    "lib/libopenblasp-r0.3.3.dylib",
+    "lib/pkgconfig/blas.pc",
+    "lib/pkgconfig/cblas.pc",
+    "lib/pkgconfig/lapack.pc",
+    "lib/pkgconfig/openblas.pc"
+  ],
+  "fn": "openblas-0.3.3-hdc02c5d_1001.tar.bz2",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/Applications/anaconda3/pkgs/openblas-0.3.3-hdc02c5d_1001",
+    "type": 1
+  },
+  "md5": "077de966f4b3151011d6ba765a2acbf2",
+  "name": "openblas",
+  "package_tarball_full_path": "/Applications/anaconda3/pkgs/openblas-0.3.3-hdc02c5d_1001.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/cblas.h",
+        "path_type": "hardlink",
+        "sha256": "a0e8b44bdfe9c2c986b14873f6dd1e1f5e8fe02d8477b36a701c8f3cdb48426f",
+        "sha256_in_prefix": "a0e8b44bdfe9c2c986b14873f6dd1e1f5e8fe02d8477b36a701c8f3cdb48426f",
+        "size_in_bytes": 45631
+      },
+      {
+        "_path": "include/f77blas.h",
+        "path_type": "hardlink",
+        "sha256": "d7b491da4d47164b46bd5dec99b6f06c62b012831ce15bb3edfce6e442c4b51d",
+        "sha256_in_prefix": "d7b491da4d47164b46bd5dec99b6f06c62b012831ce15bb3edfce6e442c4b51d",
+        "size_in_bytes": 47356
+      },
+      {
+        "_path": "include/lapacke.h",
+        "path_type": "hardlink",
+        "sha256": "0b6a5d4f79ffd79feb78e2a6ff1e55fe504f349f71247c348d29d6bd70039b11",
+        "sha256_in_prefix": "0b6a5d4f79ffd79feb78e2a6ff1e55fe504f349f71247c348d29d6bd70039b11",
+        "size_in_bytes": 1271727
+      },
+      {
+        "_path": "include/lapacke_config.h",
+        "path_type": "hardlink",
+        "sha256": "2ff1975925f93c62dfce5a9ae6aa76d40dbc3b5beb3567fbf8d7f357bfb7fa2e",
+        "sha256_in_prefix": "2ff1975925f93c62dfce5a9ae6aa76d40dbc3b5beb3567fbf8d7f357bfb7fa2e",
+        "size_in_bytes": 4236
+      },
+      {
+        "_path": "include/lapacke_mangling.h",
+        "path_type": "hardlink",
+        "sha256": "7d71fdee53a1e0cd01568aba2f152f2e1e4fbb849e84d740e3b031e819fbfa22",
+        "sha256_in_prefix": "7d71fdee53a1e0cd01568aba2f152f2e1e4fbb849e84d740e3b031e819fbfa22",
+        "size_in_bytes": 474
+      },
+      {
+        "_path": "include/lapacke_utils.h",
+        "path_type": "hardlink",
+        "sha256": "c78943d31c047cc66ffe2e317e46f9aeeca6343723c4b7045c1bc7b49b7205b9",
+        "sha256_in_prefix": "c78943d31c047cc66ffe2e317e46f9aeeca6343723c4b7045c1bc7b49b7205b9",
+        "size_in_bytes": 33161
+      },
+      {
+        "_path": "include/openblas_config.h",
+        "path_type": "hardlink",
+        "sha256": "a86c2eb6751f4ef4156263beea6e89e9c05b8338509bc8974f393798a765d59e",
+        "sha256_in_prefix": "a86c2eb6751f4ef4156263beea6e89e9c05b8338509bc8974f393798a765d59e",
+        "size_in_bytes": 5036
+      },
+      {
+        "_path": "lib/cmake/openblas/OpenBLASConfig.cmake",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "480e8b1e0d2cb560c2ff6f3565b919fc54d6967f4f9279050e8611b67c581b46",
+        "sha256_in_prefix": "207b64ef40160e66066b93de52cd98ea08ee5839a4ca60458f7013852e9b471f",
+        "size_in_bytes": 177
+      },
+      {
+        "_path": "lib/cmake/openblas/OpenBLASConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "e453114a36ae1f52d1390af8ed8fdc5e7618cdf75f19f3f8e4cf2391d0d0bee4",
+        "sha256_in_prefix": "e453114a36ae1f52d1390af8ed8fdc5e7618cdf75f19f3f8e4cf2391d0d0bee4",
+        "size_in_bytes": 284
+      },
+      {
+        "_path": "lib/libblas.a",
+        "path_type": "softlink",
+        "sha256": "53b809c6ba01d66902e983ad5905ceb5fcdd1b0a8f2071325dcc7967c72c8717",
+        "size_in_bytes": 64761744
+      },
+      {
+        "_path": "lib/libblas.dylib",
+        "path_type": "softlink",
+        "sha256": "6c11027839b0f70b7b78bdb84e3e0e11cd18f1bc203c241df0646f18d1e145cf",
+        "size_in_bytes": 62669972
+      },
+      {
+        "_path": "lib/libcblas.a",
+        "path_type": "softlink",
+        "sha256": "53b809c6ba01d66902e983ad5905ceb5fcdd1b0a8f2071325dcc7967c72c8717",
+        "size_in_bytes": 64761744
+      },
+      {
+        "_path": "lib/libcblas.dylib",
+        "path_type": "softlink",
+        "sha256": "6c11027839b0f70b7b78bdb84e3e0e11cd18f1bc203c241df0646f18d1e145cf",
+        "size_in_bytes": 62669972
+      },
+      {
+        "_path": "lib/liblapack.a",
+        "path_type": "softlink",
+        "sha256": "53b809c6ba01d66902e983ad5905ceb5fcdd1b0a8f2071325dcc7967c72c8717",
+        "size_in_bytes": 64761744
+      },
+      {
+        "_path": "lib/liblapack.dylib",
+        "path_type": "softlink",
+        "sha256": "6c11027839b0f70b7b78bdb84e3e0e11cd18f1bc203c241df0646f18d1e145cf",
+        "size_in_bytes": 62669972
+      },
+      {
+        "_path": "lib/libopenblas.a",
+        "path_type": "softlink",
+        "sha256": "53b809c6ba01d66902e983ad5905ceb5fcdd1b0a8f2071325dcc7967c72c8717",
+        "size_in_bytes": 64761744
+      },
+      {
+        "_path": "lib/libopenblas.dylib",
+        "path_type": "softlink",
+        "sha256": "6c11027839b0f70b7b78bdb84e3e0e11cd18f1bc203c241df0646f18d1e145cf",
+        "size_in_bytes": 62669972
+      },
+      {
+        "_path": "lib/libopenblasp-r0.3.3.a",
+        "path_type": "hardlink",
+        "sha256": "53b809c6ba01d66902e983ad5905ceb5fcdd1b0a8f2071325dcc7967c72c8717",
+        "sha256_in_prefix": "53b809c6ba01d66902e983ad5905ceb5fcdd1b0a8f2071325dcc7967c72c8717",
+        "size_in_bytes": 64761744
+      },
+      {
+        "_path": "lib/libopenblasp-r0.3.3.dylib",
+        "path_type": "hardlink",
+        "sha256": "6c11027839b0f70b7b78bdb84e3e0e11cd18f1bc203c241df0646f18d1e145cf",
+        "sha256_in_prefix": "6c11027839b0f70b7b78bdb84e3e0e11cd18f1bc203c241df0646f18d1e145cf",
+        "size_in_bytes": 62669972
+      },
+      {
+        "_path": "lib/pkgconfig/blas.pc",
+        "file_mode": "text",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "d3c4c0a1a86897ba029852bc221c5f201c34c4376889653fd3f7f130b51a9e93",
+        "size_in_bytes": 548
+      },
+      {
+        "_path": "lib/pkgconfig/cblas.pc",
+        "file_mode": "text",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "d3c4c0a1a86897ba029852bc221c5f201c34c4376889653fd3f7f130b51a9e93",
+        "size_in_bytes": 548
+      },
+      {
+        "_path": "lib/pkgconfig/lapack.pc",
+        "file_mode": "text",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "d3c4c0a1a86897ba029852bc221c5f201c34c4376889653fd3f7f130b51a9e93",
+        "size_in_bytes": 548
+      },
+      {
+        "_path": "lib/pkgconfig/openblas.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "d3c4c0a1a86897ba029852bc221c5f201c34c4376889653fd3f7f130b51a9e93",
+        "sha256_in_prefix": "6b5a78edcb098a6428971faf02c4d785e3d4a3be9eb753c35b1f22b60f840f07",
+        "size_in_bytes": 548
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "97c4f5056935f39ddb583239d37021537f9bfe370528f4b6bcb14f7414fb6763",
+  "size": 18405427,
+  "subdir": "osx-64",
+  "timestamp": 1538804110066,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/openblas-0.3.3-hdc02c5d_1001.tar.bz2",
+  "version": "0.3.3"
+}

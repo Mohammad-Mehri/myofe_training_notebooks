@@ -1,0 +1,111 @@
+{
+  "build": "py27h0b31af3_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [
+    "python_abi * *_cp27m"
+  ],
+  "depends": [
+    "python >=2.7,<2.8.0a0"
+  ],
+  "extracted_package_dir": "/Applications/anaconda3/pkgs/subprocess32-3.5.4-py27h0b31af3_0",
+  "features": "",
+  "files": [
+    "lib/python2.7/site-packages/_posixsubprocess32.so",
+    "lib/python2.7/site-packages/subprocess32-3.5.4.dist-info/INSTALLER",
+    "lib/python2.7/site-packages/subprocess32-3.5.4.dist-info/LICENSE",
+    "lib/python2.7/site-packages/subprocess32-3.5.4.dist-info/METADATA",
+    "lib/python2.7/site-packages/subprocess32-3.5.4.dist-info/RECORD",
+    "lib/python2.7/site-packages/subprocess32-3.5.4.dist-info/WHEEL",
+    "lib/python2.7/site-packages/subprocess32-3.5.4.dist-info/top_level.txt",
+    "lib/python2.7/site-packages/subprocess32.py",
+    "lib/python2.7/site-packages/subprocess32.pyc"
+  ],
+  "fn": "subprocess32-3.5.4-py27h0b31af3_0.tar.bz2",
+  "license": "Python-2.0",
+  "link": {
+    "source": "/Applications/anaconda3/pkgs/subprocess32-3.5.4-py27h0b31af3_0",
+    "type": 1
+  },
+  "md5": "212867407848f466339301d55e33f491",
+  "name": "subprocess32",
+  "package_tarball_full_path": "/Applications/anaconda3/pkgs/subprocess32-3.5.4-py27h0b31af3_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python2.7/site-packages/_posixsubprocess32.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/subprocess32_1572696731928/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "5ce0c8b3759ac014ed790f1b9e9aa9787522065ed0df488d95345f8f901bde06",
+        "sha256_in_prefix": "e422fbeaf3412ae4ffbd47a2c8b3d78f47639651006e635aed4a668191ec3fbe",
+        "size_in_bytes": 20244
+      },
+      {
+        "_path": "lib/python2.7/site-packages/subprocess32-3.5.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python2.7/site-packages/subprocess32-3.5.4.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "826b43437249d39422642f695154d064da64de92eb1476048a615f50bc1beb4a",
+        "sha256_in_prefix": "826b43437249d39422642f695154d064da64de92eb1476048a615f50bc1beb4a",
+        "size_in_bytes": 14471
+      },
+      {
+        "_path": "lib/python2.7/site-packages/subprocess32-3.5.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "308b06f30db61d51493ca610cfa2fa90a02d0772993eae8914555038a30e7a46",
+        "sha256_in_prefix": "308b06f30db61d51493ca610cfa2fa90a02d0772993eae8914555038a30e7a46",
+        "size_in_bytes": 1535
+      },
+      {
+        "_path": "lib/python2.7/site-packages/subprocess32-3.5.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "72ec91056524eae77b96be50ec46383990f63dbacd7c99469d5380ac63997f84",
+        "sha256_in_prefix": "72ec91056524eae77b96be50ec46383990f63dbacd7c99469d5380ac63997f84",
+        "size_in_bytes": 685
+      },
+      {
+        "_path": "lib/python2.7/site-packages/subprocess32-3.5.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "032fe3956a2e81dccbf5b4d6ab8189b2f350b84d6ee9539b485be6a101ab51fd",
+        "sha256_in_prefix": "032fe3956a2e81dccbf5b4d6ab8189b2f350b84d6ee9539b485be6a101ab51fd",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python2.7/site-packages/subprocess32-3.5.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "726af221d66979b871a7409ccdfb44fee7aa58c258dedde52cf617cff09386d8",
+        "sha256_in_prefix": "726af221d66979b871a7409ccdfb44fee7aa58c258dedde52cf617cff09386d8",
+        "size_in_bytes": 32
+      },
+      {
+        "_path": "lib/python2.7/site-packages/subprocess32.py",
+        "path_type": "hardlink",
+        "sha256": "76a0cc99e7f98b04e29f3371066a52294fb69efaebb46a38920b953fc6f68736",
+        "sha256_in_prefix": "76a0cc99e7f98b04e29f3371066a52294fb69efaebb46a38920b953fc6f68736",
+        "size_in_bytes": 71062
+      },
+      {
+        "_path": "lib/python2.7/site-packages/subprocess32.pyc",
+        "path_type": "hardlink",
+        "sha256": "dd5ffae64fdd4c9fda6c68d99ad0b7238e30ccf69fcf1e5629de150de671fa43",
+        "sha256_in_prefix": "dd5ffae64fdd4c9fda6c68d99ad0b7238e30ccf69fcf1e5629de150de671fa43",
+        "size_in_bytes": 43985
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "71bcb1f42146f6132d20649d96b6fc5e88fd4a2df90735bb68727fb9c441fcb3",
+  "size": 45419,
+  "subdir": "osx-64",
+  "timestamp": 1572696874341,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/subprocess32-3.5.4-py27h0b31af3_0.tar.bz2",
+  "version": "3.5.4"
+}

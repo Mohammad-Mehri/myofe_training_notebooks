@@ -1,0 +1,169 @@
+{
+  "build": "py27_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [
+    "python_abi * *_cp27m"
+  ],
+  "depends": [
+    "mpich",
+    "numpy",
+    "petsc 3.7*",
+    "petsc4py 3.7*",
+    "python 2.7*",
+    "slepc 3.7*"
+  ],
+  "extracted_package_dir": "/Applications/anaconda3/pkgs/slepc4py-3.7.0-py27_0",
+  "features": "",
+  "files": [
+    "lib/python2.7/site-packages/slepc4py-3.7.0.dist-info/DESCRIPTION.rst",
+    "lib/python2.7/site-packages/slepc4py-3.7.0.dist-info/INSTALLER",
+    "lib/python2.7/site-packages/slepc4py-3.7.0.dist-info/METADATA",
+    "lib/python2.7/site-packages/slepc4py-3.7.0.dist-info/RECORD",
+    "lib/python2.7/site-packages/slepc4py-3.7.0.dist-info/WHEEL",
+    "lib/python2.7/site-packages/slepc4py-3.7.0.dist-info/metadata.json",
+    "lib/python2.7/site-packages/slepc4py-3.7.0.dist-info/top_level.txt",
+    "lib/python2.7/site-packages/slepc4py/SLEPc.pxd",
+    "lib/python2.7/site-packages/slepc4py/SLEPc.py",
+    "lib/python2.7/site-packages/slepc4py/SLEPc.pyc",
+    "lib/python2.7/site-packages/slepc4py/__init__.py",
+    "lib/python2.7/site-packages/slepc4py/__init__.pyc",
+    "lib/python2.7/site-packages/slepc4py/__main__.py",
+    "lib/python2.7/site-packages/slepc4py/__main__.pyc",
+    "lib/python2.7/site-packages/slepc4py/include/slepc4py/SLEPc.pxd",
+    "lib/python2.7/site-packages/slepc4py/include/slepc4py/__init__.pxd",
+    "lib/python2.7/site-packages/slepc4py/include/slepc4py/__init__.pyx",
+    "lib/python2.7/site-packages/slepc4py/include/slepc4py/slepc4py.SLEPc.h",
+    "lib/python2.7/site-packages/slepc4py/include/slepc4py/slepc4py.SLEPc_api.h",
+    "lib/python2.7/site-packages/slepc4py/include/slepc4py/slepc4py.h",
+    "lib/python2.7/site-packages/slepc4py/include/slepc4py/slepc4py.i",
+    "lib/python2.7/site-packages/slepc4py/lib/SLEPc.so",
+    "lib/python2.7/site-packages/slepc4py/lib/__init__.py",
+    "lib/python2.7/site-packages/slepc4py/lib/__init__.pyc",
+    "lib/python2.7/site-packages/slepc4py/lib/slepc.cfg"
+  ],
+  "fn": "slepc4py-3.7.0-py27_0.tar.bz2",
+  "license": "BSD 2-Clause",
+  "link": {
+    "source": "/Applications/anaconda3/pkgs/slepc4py-3.7.0-py27_0",
+    "type": 1
+  },
+  "md5": "844d1bc76031e16be6dd8ee500e0d252",
+  "name": "slepc4py",
+  "package_tarball_full_path": "/Applications/anaconda3/pkgs/slepc4py-3.7.0-py27_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py-3.7.0.dist-info/DESCRIPTION.rst",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py-3.7.0.dist-info/INSTALLER",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py-3.7.0.dist-info/METADATA",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py-3.7.0.dist-info/RECORD",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py-3.7.0.dist-info/WHEEL",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py-3.7.0.dist-info/metadata.json",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py-3.7.0.dist-info/top_level.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py/SLEPc.pxd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py/SLEPc.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py/SLEPc.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py/__init__.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py/__init__.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py/__main__.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py/__main__.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py/include/slepc4py/SLEPc.pxd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py/include/slepc4py/__init__.pxd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py/include/slepc4py/__init__.pyx",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py/include/slepc4py/slepc4py.SLEPc.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py/include/slepc4py/slepc4py.SLEPc_api.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py/include/slepc4py/slepc4py.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py/include/slepc4py/slepc4py.i",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py/lib/SLEPc.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py/lib/__init__.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py/lib/__init__.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/slepc4py/lib/slepc.cfg",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "0f06e2ab18f632e1e58b7a08e67f18b3248a79f58b1efed3efa6e69de143d83b"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4bcae0df1a9193bec750b6558462289a25441ff36c3225d64a659a767711aec8",
+  "size": 261479,
+  "subdir": "osx-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/slepc4py-3.7.0-py27_0.tar.bz2",
+  "version": "3.7.0"
+}

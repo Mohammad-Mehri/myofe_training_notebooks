@@ -1,0 +1,403 @@
+      subroutine BVSetSizes(a,b,c,d,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       PetscInt c ! PetscInt
+       PetscInt d ! PetscInt
+       integer z
+       end subroutine
+      subroutine BVSetSizesFromVec(a,b,c,z)
+       BV a ! BV
+       Vec b ! Vec
+       PetscInt c ! PetscInt
+       integer z
+       end subroutine
+      subroutine BVGetSizes(a,b,c,d,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       PetscInt c ! PetscInt
+       PetscInt d ! PetscInt
+       integer z
+       end subroutine
+      subroutine BVSetNumConstraints(a,b,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       integer z
+       end subroutine
+      subroutine BVGetNumConstraints(a,b,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       integer z
+       end subroutine
+      subroutine BVResize(a,b,c,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       PetscBool c ! PetscBool
+       integer z
+       end subroutine
+      subroutine BVSetActiveColumns(a,b,c,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       PetscInt c ! PetscInt
+       integer z
+       end subroutine
+      subroutine BVGetActiveColumns(a,b,c,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       PetscInt c ! PetscInt
+       integer z
+       end subroutine
+      subroutine BVSetMatrix(a,b,c,z)
+       BV a ! BV
+       Mat b ! Mat
+       PetscBool c ! PetscBool
+       integer z
+       end subroutine
+      subroutine BVGetMatrix(a,b,c,z)
+       BV a ! BV
+       Mat b ! Mat
+       PetscBool c ! PetscBool
+       integer z
+       end subroutine
+      subroutine BVApplyMatrix(a,b,c,z)
+       BV a ! BV
+       Vec b ! Vec
+       Vec c ! Vec
+       integer z
+       end subroutine
+      subroutine BVApplyMatrixBV(a,b,z)
+       BV a ! BV
+       BV b ! BV
+       integer z
+       end subroutine
+      subroutine BVGetCachedBV(a,b,z)
+       BV a ! BV
+       BV b ! BV
+       integer z
+       end subroutine
+      subroutine BVSetSignature(a,b,z)
+       BV a ! BV
+       Vec b ! Vec
+       integer z
+       end subroutine
+      subroutine BVGetSignature(a,b,z)
+       BV a ! BV
+       Vec b ! Vec
+       integer z
+       end subroutine
+      subroutine BVSetRandomContext(a,b,z)
+       BV a ! BV
+       PetscRandom b ! PetscRandom
+       integer z
+       end subroutine
+      subroutine BVGetRandomContext(a,b,z)
+       BV a ! BV
+       PetscRandom b ! PetscRandom
+       integer z
+       end subroutine
+      subroutine BVSetFromOptions(a,z)
+       BV a ! BV
+       integer z
+       end subroutine
+      subroutine BVSetOrthogonalization(a,b,c,d,e,z)
+       BV a ! BV
+       BVOrthogType b ! BVOrthogType
+       BVOrthogRefineType c ! BVOrthogRefineType
+       PetscReal d ! PetscReal
+       BVOrthogBlockType e ! BVOrthogBlockType
+       integer z
+       end subroutine
+      subroutine BVGetOrthogonalization(a,b,c,d,e,z)
+       BV a ! BV
+       BVOrthogType b ! BVOrthogType
+       BVOrthogRefineType c ! BVOrthogRefineType
+       PetscReal d ! PetscReal
+       BVOrthogBlockType e ! BVOrthogBlockType
+       integer z
+       end subroutine
+      subroutine BVSetMatMultMethod(a,b,z)
+       BV a ! BV
+       BVMatMultType b ! BVMatMultType
+       integer z
+       end subroutine
+      subroutine BVGetMatMultMethod(a,b,z)
+       BV a ! BV
+       BVMatMultType b ! BVMatMultType
+       integer z
+       end subroutine
+      subroutine BVGetColumn(a,b,c,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       Vec c ! Vec
+       integer z
+       end subroutine
+      subroutine BVRestoreColumn(a,b,c,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       Vec c ! Vec
+       integer z
+       end subroutine
+      subroutine BVCreateVec(a,b,z)
+       BV a ! BV
+       Vec b ! Vec
+       integer z
+       end subroutine
+      subroutine BVDuplicate(a,b,z)
+       BV a ! BV
+       BV b ! BV
+       integer z
+       end subroutine
+      subroutine BVDuplicateResize(a,b,c,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       BV c ! BV
+       integer z
+       end subroutine
+      subroutine BVCopy(a,b,z)
+       BV a ! BV
+       BV b ! BV
+       integer z
+       end subroutine
+      subroutine BVCopyVec(a,b,c,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       Vec c ! Vec
+       integer z
+       end subroutine
+      subroutine BVCopyColumn(a,b,c,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       PetscInt c ! PetscInt
+       integer z
+       end subroutine
+      subroutine BVDestroy(a,z)
+       BV a ! BV
+       integer z
+       end subroutine
+      subroutine BVCreate(a,b,z)
+       integer a ! MPI_Comm
+       BV b ! BV
+       integer z
+       end subroutine
+      subroutine BVInsertVec(a,b,c,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       Vec c ! Vec
+       integer z
+       end subroutine
+      subroutine BVInsertVecs(a,b,c,d,e,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       PetscInt c ! PetscInt
+       Vec d ! Vec
+       PetscBool e ! PetscBool
+       integer z
+       end subroutine
+      subroutine BVInsertConstraints(a,b,c,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       Vec c ! Vec
+       integer z
+       end subroutine
+      subroutine BVMult(a,b,c,d,e,z)
+       BV a ! BV
+       PetscScalar b ! PetscScalar
+       PetscScalar c ! PetscScalar
+       BV d ! BV
+       Mat e ! Mat
+       integer z
+       end subroutine
+      subroutine BVMultVec(a,b,c,d,e,z)
+       BV a ! BV
+       PetscScalar b ! PetscScalar
+       PetscScalar c ! PetscScalar
+       Vec d ! Vec
+       PetscScalar e ! PetscScalar
+       integer z
+       end subroutine
+      subroutine BVMultColumn(a,b,c,d,e,z)
+       BV a ! BV
+       PetscScalar b ! PetscScalar
+       PetscScalar c ! PetscScalar
+       PetscInt d ! PetscInt
+       PetscScalar e ! PetscScalar
+       integer z
+       end subroutine
+      subroutine BVMultInPlace(a,b,c,d,z)
+       BV a ! BV
+       Mat b ! Mat
+       PetscInt c ! PetscInt
+       PetscInt d ! PetscInt
+       integer z
+       end subroutine
+      subroutine BVMultInPlaceTranspose(a,b,c,d,z)
+       BV a ! BV
+       Mat b ! Mat
+       PetscInt c ! PetscInt
+       PetscInt d ! PetscInt
+       integer z
+       end subroutine
+      subroutine BVScale(a,b,z)
+       BV a ! BV
+       PetscScalar b ! PetscScalar
+       integer z
+       end subroutine
+      subroutine BVScaleColumn(a,b,c,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       PetscScalar c ! PetscScalar
+       integer z
+       end subroutine
+      subroutine BVSetRandom(a,z)
+       BV a ! BV
+       integer z
+       end subroutine
+      subroutine BVSetRandomColumn(a,b,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       integer z
+       end subroutine
+      subroutine BVMatMult(a,b,c,z)
+       BV a ! BV
+       Mat b ! Mat
+       BV c ! BV
+       integer z
+       end subroutine
+      subroutine BVMatMultHermitianTranspose(a,b,c,z)
+       BV a ! BV
+       Mat b ! Mat
+       BV c ! BV
+       integer z
+       end subroutine
+      subroutine BVMatMultColumn(a,b,c,z)
+       BV a ! BV
+       Mat b ! Mat
+       PetscInt c ! PetscInt
+       integer z
+       end subroutine
+      subroutine BVOrthogonalizeVec(a,b,c,d,e,z)
+       BV a ! BV
+       Vec b ! Vec
+       PetscScalar c ! PetscScalar
+       PetscReal d ! PetscReal
+       PetscBool e ! PetscBool
+       integer z
+       end subroutine
+      subroutine BVOrthogonalizeColumn(a,b,c,d,e,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       PetscScalar c ! PetscScalar
+       PetscReal d ! PetscReal
+       PetscBool e ! PetscBool
+       integer z
+       end subroutine
+      subroutine BVOrthogonalizeSomeColumn(a,b,c,d,e,f,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       PetscBool c ! PetscBool
+       PetscScalar d ! PetscScalar
+       PetscReal e ! PetscReal
+       PetscBool f ! PetscBool
+       integer z
+       end subroutine
+      subroutine BVOrthogonalize(a,b,z)
+       BV a ! BV
+       Mat b ! Mat
+       integer z
+       end subroutine
+      subroutine BVDot(a,b,c,z)
+       BV a ! BV
+       BV b ! BV
+       Mat c ! Mat
+       integer z
+       end subroutine
+      subroutine BVDotVec(a,b,c,z)
+       BV a ! BV
+       Vec b ! Vec
+       PetscScalar c ! PetscScalar
+       integer z
+       end subroutine
+      subroutine BVDotVecBegin(a,b,c,z)
+       BV a ! BV
+       Vec b ! Vec
+       PetscScalar c ! PetscScalar
+       integer z
+       end subroutine
+      subroutine BVDotVecEnd(a,b,c,z)
+       BV a ! BV
+       Vec b ! Vec
+       PetscScalar c ! PetscScalar
+       integer z
+       end subroutine
+      subroutine BVDotColumn(a,b,c,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       PetscScalar c ! PetscScalar
+       integer z
+       end subroutine
+      subroutine BVDotColumnBegin(a,b,c,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       PetscScalar c ! PetscScalar
+       integer z
+       end subroutine
+      subroutine BVDotColumnEnd(a,b,c,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       PetscScalar c ! PetscScalar
+       integer z
+       end subroutine
+      subroutine BVNorm(a,b,c,z)
+       BV a ! BV
+       NormType b ! NormType
+       PetscReal c ! PetscReal
+       integer z
+       end subroutine
+      subroutine BVNormVec(a,b,c,d,z)
+       BV a ! BV
+       Vec b ! Vec
+       NormType c ! NormType
+       PetscReal d ! PetscReal
+       integer z
+       end subroutine
+      subroutine BVNormVecBegin(a,b,c,d,z)
+       BV a ! BV
+       Vec b ! Vec
+       NormType c ! NormType
+       PetscReal d ! PetscReal
+       integer z
+       end subroutine
+      subroutine BVNormVecEnd(a,b,c,d,z)
+       BV a ! BV
+       Vec b ! Vec
+       NormType c ! NormType
+       PetscReal d ! PetscReal
+       integer z
+       end subroutine
+      subroutine BVNormColumn(a,b,c,d,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       NormType c ! NormType
+       PetscReal d ! PetscReal
+       integer z
+       end subroutine
+      subroutine BVNormColumnBegin(a,b,c,d,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       NormType c ! NormType
+       PetscReal d ! PetscReal
+       integer z
+       end subroutine
+      subroutine BVNormColumnEnd(a,b,c,d,z)
+       BV a ! BV
+       PetscInt b ! PetscInt
+       NormType c ! NormType
+       PetscReal d ! PetscReal
+       integer z
+       end subroutine
+      subroutine BVMatProject(a,b,c,d,z)
+       BV a ! BV
+       Mat b ! Mat
+       BV c ! BV
+       Mat d ! Mat
+       integer z
+       end subroutine

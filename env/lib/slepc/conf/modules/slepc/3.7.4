@@ -1,0 +1,12 @@
+#%Module
+
+proc ModulesHelp { } {
+    puts stderr "This module sets the path and environment variables for slepc-3.7.4"
+    puts stderr "     see http://slepc.upv.es/ for more information"
+    puts stderr ""
+}
+module-whatis "SLEPc - Scalable Library for Eigenvalue Problem Computations"
+
+module load petsc
+set slepc_dir /Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env
+setenv SLEPC_DIR $slepc_dir

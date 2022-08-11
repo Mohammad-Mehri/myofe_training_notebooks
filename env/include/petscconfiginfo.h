@@ -1,0 +1,1 @@
+static const char *petscconfigureoptions = "--with-fc=0 --with-debugging=0 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --LIBS=-Wl,-rpath,${PETSC_DIR}/lib --with-blas-lapack-lib=libopenblas.dylib --with-cmake=0 --with-hwloc=0 --with-ssl=0 --with-x=0 --prefix=${PETSC_DIR}";

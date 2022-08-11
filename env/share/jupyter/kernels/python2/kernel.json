@@ -1,0 +1,11 @@
+{
+ "display_name": "Python 2", 
+ "language": "python", 
+ "argv": [
+  "/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/bin/python", 
+  "-m", 
+  "ipykernel_launcher", 
+  "-f", 
+  "{connection_file}"
+ ]
+}

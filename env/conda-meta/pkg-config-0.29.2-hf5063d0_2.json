@@ -1,0 +1,79 @@
+{
+  "build": "hf5063d0_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/Applications/anaconda3/pkgs/pkg-config-0.29.2-hf5063d0_2",
+  "features": "",
+  "files": [
+    "bin/pkg-config",
+    "bin/x86_64-apple-darwin14.5.0-pkg-config",
+    "share/aclocal/pkg.m4",
+    "share/doc/pkg-config/pkg-config-guide.html",
+    "share/man/man1/pkg-config.1"
+  ],
+  "fn": "pkg-config-0.29.2-hf5063d0_2.tar.bz2",
+  "license": "GPL 2",
+  "link": {
+    "source": "/Applications/anaconda3/pkgs/pkg-config-0.29.2-hf5063d0_2",
+    "type": 1
+  },
+  "md5": "8ef1a02f1fe2c169891ac7d2e11621e6",
+  "name": "pkg-config",
+  "package_tarball_full_path": "/Applications/anaconda3/pkgs/pkg-config-0.29.2-hf5063d0_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/pkg-config",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/travis/miniconda3/conda-bld/pkg-config_1531721113787/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "aedf2ffdedf25a51ea2633a426dcdab8643c7df6aa0b3d482c59dff058e78d1b",
+        "sha256_in_prefix": "30c7f6a389decf5e44953854652ab4e1a1cf757e6a23f749410add21c40c6d83",
+        "size_in_bytes": 738584
+      },
+      {
+        "_path": "bin/x86_64-apple-darwin14.5.0-pkg-config",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/travis/miniconda3/conda-bld/pkg-config_1531721113787/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "aedf2ffdedf25a51ea2633a426dcdab8643c7df6aa0b3d482c59dff058e78d1b",
+        "sha256_in_prefix": "30c7f6a389decf5e44953854652ab4e1a1cf757e6a23f749410add21c40c6d83",
+        "size_in_bytes": 738584
+      },
+      {
+        "_path": "share/aclocal/pkg.m4",
+        "path_type": "hardlink",
+        "sha256": "140b9a7bc1fa8730b62e74f8413af2bd15b53969a084fc4a041ba70b11e352f3",
+        "sha256_in_prefix": "140b9a7bc1fa8730b62e74f8413af2bd15b53969a084fc4a041ba70b11e352f3",
+        "size_in_bytes": 10247
+      },
+      {
+        "_path": "share/doc/pkg-config/pkg-config-guide.html",
+        "path_type": "hardlink",
+        "sha256": "abec943644a7c87d15bae2f5d5763488a592183ff35319732d44892a42a167c1",
+        "sha256_in_prefix": "abec943644a7c87d15bae2f5d5763488a592183ff35319732d44892a42a167c1",
+        "size_in_bytes": 17832
+      },
+      {
+        "_path": "share/man/man1/pkg-config.1",
+        "path_type": "hardlink",
+        "sha256": "3591588e106c870d35f9da41bec0528a7e6577c45a97bb08766a33f1638a49f9",
+        "sha256_in_prefix": "3591588e106c870d35f9da41bec0528a7e6577c45a97bb08766a33f1638a49f9",
+        "size_in_bytes": 23611
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a6cd7f8765f5f87e7158d8497be75aebf9b97ae0fcb272b59229410d3b4705a4",
+  "size": 474664,
+  "subdir": "osx-64",
+  "timestamp": 1531721258514,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/pkg-config-0.29.2-hf5063d0_2.tar.bz2",
+  "version": "0.29.2"
+}

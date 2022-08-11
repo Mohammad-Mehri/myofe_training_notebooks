@@ -1,0 +1,134 @@
+{
+  "build": "py27h8c360ce_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "backports",
+    "python >=2.7,<2.8.0a0",
+    "python_abi 2.7.* *_cp27m"
+  ],
+  "extracted_package_dir": "/Applications/anaconda3/pkgs/configparser-3.7.3-py27h8c360ce_2",
+  "features": "",
+  "files": [
+    "lib/python2.7/site-packages/backports/configparser/__init__.py",
+    "lib/python2.7/site-packages/backports/configparser/__init__.pyc",
+    "lib/python2.7/site-packages/backports/configparser/helpers.py",
+    "lib/python2.7/site-packages/backports/configparser/helpers.pyc",
+    "lib/python2.7/site-packages/configparser-3.7.3.dist-info/INSTALLER",
+    "lib/python2.7/site-packages/configparser-3.7.3.dist-info/LICENSE",
+    "lib/python2.7/site-packages/configparser-3.7.3.dist-info/METADATA",
+    "lib/python2.7/site-packages/configparser-3.7.3.dist-info/RECORD",
+    "lib/python2.7/site-packages/configparser-3.7.3.dist-info/WHEEL",
+    "lib/python2.7/site-packages/configparser-3.7.3.dist-info/top_level.txt",
+    "lib/python2.7/site-packages/configparser.py",
+    "lib/python2.7/site-packages/configparser.pyc"
+  ],
+  "fn": "configparser-3.7.3-py27h8c360ce_2.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Applications/anaconda3/pkgs/configparser-3.7.3-py27h8c360ce_2",
+    "type": 1
+  },
+  "md5": "7f2254fe104e887370ead71ddaa6bfe8",
+  "name": "configparser",
+  "package_tarball_full_path": "/Applications/anaconda3/pkgs/configparser-3.7.3-py27h8c360ce_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python2.7/site-packages/backports/configparser/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4acbd27951c1909895c46d8ecfdd707a6b9ef9e355f2c38f1976602da7f04432",
+        "sha256_in_prefix": "4acbd27951c1909895c46d8ecfdd707a6b9ef9e355f2c38f1976602da7f04432",
+        "size_in_bytes": 55398
+      },
+      {
+        "_path": "lib/python2.7/site-packages/backports/configparser/__init__.pyc",
+        "path_type": "hardlink",
+        "sha256": "bd7ec24f3f69b090d21be378c85a56516fc37def927433ddfee56cd59615cee7",
+        "sha256_in_prefix": "bd7ec24f3f69b090d21be378c85a56516fc37def927433ddfee56cd59615cee7",
+        "size_in_bytes": 55413
+      },
+      {
+        "_path": "lib/python2.7/site-packages/backports/configparser/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "18cb2f7e933ab37d0156188c55b860d7e603edcda0620f9e79ad3e520657b8d3",
+        "sha256_in_prefix": "18cb2f7e933ab37d0156188c55b860d7e603edcda0620f9e79ad3e520657b8d3",
+        "size_in_bytes": 7648
+      },
+      {
+        "_path": "lib/python2.7/site-packages/backports/configparser/helpers.pyc",
+        "path_type": "hardlink",
+        "sha256": "b290fe110bb4ff8baa9ae646fa29420652d1fb88ec95e981fe2f0b3635809a0c",
+        "sha256_in_prefix": "b290fe110bb4ff8baa9ae646fa29420652d1fb88ec95e981fe2f0b3635809a0c",
+        "size_in_bytes": 10342
+      },
+      {
+        "_path": "lib/python2.7/site-packages/configparser-3.7.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python2.7/site-packages/configparser-3.7.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "a55e2ffe9b44998e621d51d8c094bed09acc4b5236ee73d7df395a33ba3c18fd",
+        "sha256_in_prefix": "a55e2ffe9b44998e621d51d8c094bed09acc4b5236ee73d7df395a33ba3c18fd",
+        "size_in_bytes": 1050
+      },
+      {
+        "_path": "lib/python2.7/site-packages/configparser-3.7.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "9c7136dbfd15c571d53b391c659b7de101933acfc6d45244b8adb217657f1fff",
+        "sha256_in_prefix": "9c7136dbfd15c571d53b391c659b7de101933acfc6d45244b8adb217657f1fff",
+        "size_in_bytes": 10677
+      },
+      {
+        "_path": "lib/python2.7/site-packages/configparser-3.7.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "5432bf673a0089307410a12e80b65c4960e80b13735b966c8d7dcfbc191be270",
+        "sha256_in_prefix": "5432bf673a0089307410a12e80b65c4960e80b13735b966c8d7dcfbc191be270",
+        "size_in_bytes": 969
+      },
+      {
+        "_path": "lib/python2.7/site-packages/configparser-3.7.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046",
+        "sha256_in_prefix": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python2.7/site-packages/configparser-3.7.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "988b3c81a8ddedcbc45a1565bafe2eea871a1f0fd327daceae9919105bfeec77",
+        "sha256_in_prefix": "988b3c81a8ddedcbc45a1565bafe2eea871a1f0fd327daceae9919105bfeec77",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "lib/python2.7/site-packages/configparser.py",
+        "path_type": "hardlink",
+        "sha256": "360a299deecbdf356844e07ed9929cdd39514fa5e285ce42414bb42996c7b17b",
+        "sha256_in_prefix": "360a299deecbdf356844e07ed9929cdd39514fa5e285ce42414bb42996c7b17b",
+        "size_in_bytes": 1560
+      },
+      {
+        "_path": "lib/python2.7/site-packages/configparser.pyc",
+        "path_type": "hardlink",
+        "sha256": "5cb6ea36a9cd6ecb5a74a1fdb8cf3fa2073ecc2232acb270641073ca9fb76b64",
+        "sha256_in_prefix": "5cb6ea36a9cd6ecb5a74a1fdb8cf3fa2073ecc2232acb270641073ca9fb76b64",
+        "size_in_bytes": 1876
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8c4f0e372341c9918196e65f9ef6d51e462aed71ab6ece1638fd5cf9c1bf2f5e",
+  "size": 37302,
+  "subdir": "osx-64",
+  "timestamp": 1584350618462,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/configparser-3.7.3-py27h8c360ce_2.tar.bz2",
+  "version": "3.7.3"
+}

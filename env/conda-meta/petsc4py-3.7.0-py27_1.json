@@ -1,0 +1,167 @@
+{
+  "build": "py27_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [
+    "python_abi * *_cp27m"
+  ],
+  "depends": [
+    "mpich",
+    "numpy",
+    "petsc 3.7*",
+    "python 2.7*"
+  ],
+  "extracted_package_dir": "/Applications/anaconda3/pkgs/petsc4py-3.7.0-py27_1",
+  "features": "",
+  "files": [
+    "lib/python2.7/site-packages/petsc4py-3.7.0.dist-info/DESCRIPTION.rst",
+    "lib/python2.7/site-packages/petsc4py-3.7.0.dist-info/INSTALLER",
+    "lib/python2.7/site-packages/petsc4py-3.7.0.dist-info/METADATA",
+    "lib/python2.7/site-packages/petsc4py-3.7.0.dist-info/RECORD",
+    "lib/python2.7/site-packages/petsc4py-3.7.0.dist-info/WHEEL",
+    "lib/python2.7/site-packages/petsc4py-3.7.0.dist-info/metadata.json",
+    "lib/python2.7/site-packages/petsc4py-3.7.0.dist-info/top_level.txt",
+    "lib/python2.7/site-packages/petsc4py/PETSc.py",
+    "lib/python2.7/site-packages/petsc4py/PETSc.pyc",
+    "lib/python2.7/site-packages/petsc4py/__init__.py",
+    "lib/python2.7/site-packages/petsc4py/__init__.pyc",
+    "lib/python2.7/site-packages/petsc4py/__main__.py",
+    "lib/python2.7/site-packages/petsc4py/__main__.pyc",
+    "lib/python2.7/site-packages/petsc4py/include/petsc4py/PETSc.pxd",
+    "lib/python2.7/site-packages/petsc4py/include/petsc4py/__init__.pxd",
+    "lib/python2.7/site-packages/petsc4py/include/petsc4py/__init__.pyx",
+    "lib/python2.7/site-packages/petsc4py/include/petsc4py/numpy.h",
+    "lib/python2.7/site-packages/petsc4py/include/petsc4py/petsc4py.PETSc.h",
+    "lib/python2.7/site-packages/petsc4py/include/petsc4py/petsc4py.PETSc_api.h",
+    "lib/python2.7/site-packages/petsc4py/include/petsc4py/petsc4py.h",
+    "lib/python2.7/site-packages/petsc4py/include/petsc4py/petsc4py.i",
+    "lib/python2.7/site-packages/petsc4py/lib/PETSc.so",
+    "lib/python2.7/site-packages/petsc4py/lib/__init__.py",
+    "lib/python2.7/site-packages/petsc4py/lib/__init__.pyc",
+    "lib/python2.7/site-packages/petsc4py/lib/petsc.cfg"
+  ],
+  "fn": "petsc4py-3.7.0-py27_1.tar.bz2",
+  "license": "BSD 2-Clause",
+  "link": {
+    "source": "/Applications/anaconda3/pkgs/petsc4py-3.7.0-py27_1",
+    "type": 1
+  },
+  "md5": "d8a05ea68b67073edb507f458de754c2",
+  "name": "petsc4py",
+  "package_tarball_full_path": "/Applications/anaconda3/pkgs/petsc4py-3.7.0-py27_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py-3.7.0.dist-info/DESCRIPTION.rst",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py-3.7.0.dist-info/INSTALLER",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py-3.7.0.dist-info/METADATA",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py-3.7.0.dist-info/RECORD",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py-3.7.0.dist-info/WHEEL",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py-3.7.0.dist-info/metadata.json",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py-3.7.0.dist-info/top_level.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py/PETSc.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py/PETSc.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py/__init__.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py/__init__.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py/__main__.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py/__main__.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py/include/petsc4py/PETSc.pxd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py/include/petsc4py/__init__.pxd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py/include/petsc4py/__init__.pyx",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py/include/petsc4py/numpy.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py/include/petsc4py/petsc4py.PETSc.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py/include/petsc4py/petsc4py.PETSc_api.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py/include/petsc4py/petsc4py.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py/include/petsc4py/petsc4py.i",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py/lib/PETSc.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py/lib/__init__.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py/lib/__init__.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/petsc4py/lib/petsc.cfg",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "20cb5a9fbfcbcfdd6564fb20970e29482bb0542cf2ec3ae4ae173c912f581b2f"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a019a3a45c874da8540f37ebd4d2f4bdb8c258b191bb2d7ee1b55fceacf7ba4c",
+  "size": 1060092,
+  "subdir": "osx-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/petsc4py-3.7.0-py27_1.tar.bz2",
+  "version": "3.7.0"
+}

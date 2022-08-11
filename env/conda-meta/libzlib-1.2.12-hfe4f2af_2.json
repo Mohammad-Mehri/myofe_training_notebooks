@@ -1,0 +1,51 @@
+{
+  "build": "hfe4f2af_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [
+    "zlib 1.2.12 *_2"
+  ],
+  "depends": [],
+  "extracted_package_dir": "/Applications/anaconda3/pkgs/libzlib-1.2.12-hfe4f2af_2",
+  "features": "",
+  "files": [
+    "lib/libz.1.2.12.dylib",
+    "lib/libz.1.dylib"
+  ],
+  "fn": "libzlib-1.2.12-hfe4f2af_2.tar.bz2",
+  "license": "Zlib",
+  "license_family": "Other",
+  "link": {
+    "source": "/Applications/anaconda3/pkgs/libzlib-1.2.12-hfe4f2af_2",
+    "type": 1
+  },
+  "md5": "1d676bbaa2599f22121dd5bbea455c2e",
+  "name": "libzlib",
+  "package_tarball_full_path": "/Applications/anaconda3/pkgs/libzlib-1.2.12-hfe4f2af_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libz.1.2.12.dylib",
+        "path_type": "hardlink",
+        "sha256": "ff35aef73a0ca57207fab8038226133d76a409d48858691962650d7afb6bb8d1",
+        "sha256_in_prefix": "ff35aef73a0ca57207fab8038226133d76a409d48858691962650d7afb6bb8d1",
+        "size_in_bytes": 105376
+      },
+      {
+        "_path": "lib/libz.1.dylib",
+        "path_type": "softlink",
+        "sha256": "ff35aef73a0ca57207fab8038226133d76a409d48858691962650d7afb6bb8d1",
+        "size_in_bytes": 105376
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "14fe466192d4af8fbfaf60bb102a3590e39e00ed8c9ef15c9392a7848ab3f39d",
+  "size": 64817,
+  "subdir": "osx-64",
+  "timestamp": 1657716832284,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libzlib-1.2.12-hfe4f2af_2.tar.bz2",
+  "version": "1.2.12"
+}

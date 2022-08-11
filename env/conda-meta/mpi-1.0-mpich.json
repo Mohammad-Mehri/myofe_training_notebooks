@@ -1,0 +1,30 @@
+{
+  "build": "mpich",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Applications/anaconda3/pkgs/mpi-1.0-mpich",
+  "features": "",
+  "files": [],
+  "fn": "mpi-1.0-mpich.tar.bz2",
+  "license": "BSD 3-clause",
+  "link": {
+    "source": "/Applications/anaconda3/pkgs/mpi-1.0-mpich",
+    "type": 1
+  },
+  "md5": "7316a634ed27146b42d28433ec3bc227",
+  "name": "mpi",
+  "package_tarball_full_path": "/Applications/anaconda3/pkgs/mpi-1.0-mpich.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f6ed94ef0df7992198eba976af4d509863acd2911964501d263eef8b44521da6",
+  "size": 4390,
+  "subdir": "osx-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/mpi-1.0-mpich.tar.bz2",
+  "version": "1.0"
+}

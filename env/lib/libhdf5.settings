@@ -1,0 +1,72 @@
+	    SUMMARY OF THE HDF5 CONFIGURATION
+	    =================================
+
+General Information:
+-------------------
+		   HDF5 Version: 1.8.18
+		  Configured on: Wed May 31 22:50:54 UTC 2017
+		  Configured by: travis@Traviss-Mac-75.local
+		 Configure mode: production
+		    Host system: i386-apple-darwin14.5.0
+	      Uname information: Darwin Traviss-Mac-75.local 14.5.0 Darwin Kernel Version 14.5.0: Thu Apr 21 20:40:54 PDT 2016; root:xnu-2782.50.3~1/RELEASE_X86_64 x86_64
+		       Byte sex: little-endian
+		      Libraries: static, shared
+	     Installation point: /Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env
+
+Compiling Options:
+------------------
+               Compilation Mode: production
+                     C Compiler: /usr/bin/clang ( Apple LLVM version 6.1.0 )
+                         CFLAGS:  -arch x86_64 -mmacosx-version-min=10.9 -m64
+                      H5_CFLAGS:  
+                      AM_CFLAGS: 
+                       CPPFLAGS: 
+                    H5_CPPFLAGS:   -DNDEBUG -UH5_DEBUG_API
+                    AM_CPPFLAGS:  -I/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/include
+               Shared C Library: yes
+               Static C Library: yes
+  Statically Linked Executables: no
+                        LDFLAGS:  -arch x86_64 -headerpad_max_install_names -mmacosx-version-min=10.9 -lc++ -Wl,-rpath,/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/lib
+                     H5_LDFLAGS: 
+                     AM_LDFLAGS:  -L/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/lib
+ 	 	Extra libraries: -lpthread -lz -ldl -lm 
+ 		       Archiver: ar
+ 		 	 Ranlib: ranlib
+ 	      Debugged Packages: 
+		    API Tracing: no
+
+Languages:
+----------
+                        Fortran: yes
+               Fortran Compiler: /Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/bin/gfortran ( GNU Fortran (GCC) 4.8.5)
+          Fortran 2003 Compiler: yes
+                  Fortran Flags: 
+               H5 Fortran Flags:  -pedantic -Wall -Wconversion -Wunderflow -Wimplicit-interface -W -O2 -s
+               AM Fortran Flags: 
+         Shared Fortran Library: no
+         Static Fortran Library: yes
+
+                            C++: yes
+                   C++ Compiler: /usr/bin/clang++ -stdlib=libc++
+                      C++ Flags:  -arch x86_64 -mmacosx-version-min=10.9 -stdlib=libc++ -m64
+                   H5 C++ Flags:  
+                   AM C++ Flags: 
+             Shared C++ Library: yes
+             Static C++ Library: yes
+
+Features:
+---------
+                  Parallel HDF5: no
+             High Level library: yes
+                   Threadsafety: yes
+            Default API Mapping: v18
+ With Deprecated Public Symbols: yes
+         I/O filters (external): deflate(zlib)
+                            MPE: no
+                     Direct VFD: no
+                        dmalloc: no
+Clear file buffers before write: yes
+           Using memory checker: no
+         Function Stack Tracing: no
+      Strict File Format Checks: no
+   Optimization Instrumentation: no

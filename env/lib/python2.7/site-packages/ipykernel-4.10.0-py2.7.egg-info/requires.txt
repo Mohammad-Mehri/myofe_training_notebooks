@@ -1,0 +1,12 @@
+ipython>=4.0.0
+traitlets>=4.1.0
+jupyter_client
+tornado>=4.0
+
+[test]
+pytest
+pytest-cov
+nose
+
+[test:python_version=="2.7"]
+mock

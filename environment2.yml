@@ -1,0 +1,13 @@
+name: myofe
+channels:
+  - default
+  - conda-forge
+
+dependencies:
+  - python=2.7
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyterlab
+  - fenics=2017.2.0
+

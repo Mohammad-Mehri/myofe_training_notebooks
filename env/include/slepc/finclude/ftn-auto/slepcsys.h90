@@ -1,0 +1,36 @@
+      subroutine SlepcMatTile(a,b,c,d,e,f,g,h,i,z)
+       PetscScalar a ! PetscScalar
+       Mat b ! Mat
+       PetscScalar c ! PetscScalar
+       Mat d ! Mat
+       PetscScalar e ! PetscScalar
+       Mat f ! Mat
+       PetscScalar g ! PetscScalar
+       Mat h ! Mat
+       Mat i ! Mat
+       integer z
+       end subroutine
+      subroutine SlepcFinalize(z)
+       integer z
+       end subroutine
+      subroutine SlepcInitialized(a,z)
+       PetscBool a ! PetscBool
+       integer z
+       end subroutine
+      subroutine SlepcSCCompare(a,b,c,d,e,f,z)
+       SlepcSC a ! SlepcSC
+       PetscScalar b ! PetscScalar
+       PetscScalar c ! PetscScalar
+       PetscScalar d ! PetscScalar
+       PetscScalar e ! PetscScalar
+       PetscInt f ! PetscInt
+       integer z
+       end subroutine
+      subroutine SlepcSortEigenvalues(a,b,c,d,e,z)
+       SlepcSC a ! SlepcSC
+       PetscInt b ! PetscInt
+       PetscScalar c ! PetscScalar
+       PetscScalar d ! PetscScalar
+       PetscInt e ! PetscInt
+       integer z
+       end subroutine

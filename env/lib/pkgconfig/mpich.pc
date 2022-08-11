@@ -1,0 +1,20 @@
+# this gives access to the mpich header files
+prefix=/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: mpich
+Description: High Performance and portable MPI
+Version: 3.3.1
+URL: http://www.mcs.anl.gov/research/projects/mpich
+Requires:
+Libs:  -L/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/lib -Wl,-rpath,/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/lib -Wl,-flat_namespace -Wl,-commons,use_dylibs -L${libdir} -lmpi -lpmpi -lm    -lpthread  
+Cflags: -I/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/include -I/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/include -I${includedir}
+
+# pkg-config does not understand Cxxflags, etc. So we allow users to
+# query them using the --variable option
+
+cxxflags=-I/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/include -I/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/include -I${includedir}
+fflags=-I/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/include -I${includedir}
+fcflags=-I/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/include -I${includedir}

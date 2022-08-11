@@ -1,0 +1,37 @@
+{
+  "build": "1_cp27m",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [
+    "pypy <0a0",
+    "python_abi * *_cp27m"
+  ],
+  "depends": [
+    "python 2.7.*"
+  ],
+  "extracted_package_dir": "/Applications/anaconda3/pkgs/python_abi-2.7-1_cp27m",
+  "features": "",
+  "files": [],
+  "fn": "python_abi-2.7-1_cp27m.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Applications/anaconda3/pkgs/python_abi-2.7-1_cp27m",
+    "type": 1
+  },
+  "md5": "505f411b16c4105038516d35911f3826",
+  "name": "python_abi",
+  "package_tarball_full_path": "/Applications/anaconda3/pkgs/python_abi-2.7-1_cp27m.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3986bbbc109cb9fc935bc6a8e7de95f9ac5a6cec82ad9a841baac8a2a23105e7",
+  "size": 3678,
+  "subdir": "osx-64",
+  "timestamp": 1583344778445,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/python_abi-2.7-1_cp27m.tar.bz2",
+  "version": "2.7"
+}

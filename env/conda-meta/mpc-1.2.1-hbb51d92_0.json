@@ -1,0 +1,68 @@
+{
+  "build": "hbb51d92_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "gmp >=6.2.1,<7.0a0",
+    "mpfr >=4.1.0,<5.0a0"
+  ],
+  "extracted_package_dir": "/Applications/anaconda3/pkgs/mpc-1.2.1-hbb51d92_0",
+  "features": "",
+  "files": [
+    "include/mpc.h",
+    "lib/libmpc.3.dylib",
+    "lib/libmpc.dylib",
+    "share/info/mpc.info"
+  ],
+  "fn": "mpc-1.2.1-hbb51d92_0.tar.bz2",
+  "license": "LGPL-3.0-or-later",
+  "license_family": "LGPL",
+  "link": {
+    "source": "/Applications/anaconda3/pkgs/mpc-1.2.1-hbb51d92_0",
+    "type": 1
+  },
+  "md5": "9f46d6ad4c460679ee997abc10da3bac",
+  "name": "mpc",
+  "package_tarball_full_path": "/Applications/anaconda3/pkgs/mpc-1.2.1-hbb51d92_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/mpc.h",
+        "path_type": "hardlink",
+        "sha256": "0fdaa2d9d875193b6797aba9ba2b6acabf24c6321467c624b9ca7468a613ef5a",
+        "sha256_in_prefix": "0fdaa2d9d875193b6797aba9ba2b6acabf24c6321467c624b9ca7468a613ef5a",
+        "size_in_bytes": 13197
+      },
+      {
+        "_path": "lib/libmpc.3.dylib",
+        "path_type": "hardlink",
+        "sha256": "b07172e7e801d1b63114c1ce9fea66cf9934fff17bdd2292e90cbc32bee3006f",
+        "sha256_in_prefix": "b07172e7e801d1b63114c1ce9fea66cf9934fff17bdd2292e90cbc32bee3006f",
+        "size_in_bytes": 96352
+      },
+      {
+        "_path": "lib/libmpc.dylib",
+        "path_type": "softlink",
+        "sha256": "b07172e7e801d1b63114c1ce9fea66cf9934fff17bdd2292e90cbc32bee3006f",
+        "size_in_bytes": 96352
+      },
+      {
+        "_path": "share/info/mpc.info",
+        "path_type": "hardlink",
+        "sha256": "635fe0b76b13f35828cc0819e2f2267361e712b55084596b6c02499a2067b229",
+        "sha256_in_prefix": "635fe0b76b13f35828cc0819e2f2267361e712b55084596b6c02499a2067b229",
+        "size_in_bytes": 89253
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b8fcdded9970bc4212d5a4b9187f2957d657b1afb9371cce6970c77ebd59834a",
+  "size": 105313,
+  "subdir": "osx-64",
+  "timestamp": 1631515709842,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/mpc-1.2.1-hbb51d92_0.tar.bz2",
+  "version": "1.2.1"
+}

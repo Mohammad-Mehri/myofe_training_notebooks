@@ -1,0 +1,11 @@
+prefix=/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsodium
+Version: 1.0.17
+Description: A modern and easy-to-use crypto library
+
+Libs: -L${libdir} -lsodium
+Cflags: -I${includedir}

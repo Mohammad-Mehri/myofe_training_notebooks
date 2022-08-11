@@ -1,0 +1,33 @@
+shared_install: 
+	-@echo "Now to install the libraries do:"
+	-@echo "make PETSC_DIR=/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env  install"
+	-@echo "========================================="
+
+remoteclean: 
+
+remote: 
+
+shared_arch: shared_darwin
+
+libc: ${LIBNAME}(${OBJSC})
+
+libcxx: ${LIBNAME}(${OBJSCXX})
+
+libcu: ${LIBNAME}(${OBJSCU})
+
+libf: ${OBJSF}
+	-${AR} ${AR_FLAGS} ${LIBNAME} ${OBJSF}
+
+.F.o: 
+	-@echo "Your system was not configured for Fortran use"
+	-@echo "  Check configure.log under the checkFortranCompiler test for the specific failure"
+	-@echo "  You can reconfigure using --with-fc=<usable compiler> to enable Fortran"
+
+mpi4py-build: 
+
+mpi4py-install: 
+
+petsc4py-build: 
+
+petsc4py-install: 
+

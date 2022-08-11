@@ -1,0 +1,9 @@
+name: test_jupyter
+channels:
+  - default
+  - conda-forge
+
+dependencies:
+  - jupyterlab
+  - fenics=2017.2.0
+

@@ -1,0 +1,154 @@
+{
+  "build": "py27h4160ff4_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [
+    "python_abi * *_cp27m"
+  ],
+  "depends": [
+    "gmp >=6.1.2,<7.0a0",
+    "mpc >=1.1.0,<2.0a0",
+    "mpfr >=4.0.2,<5.0a0",
+    "python >=2.7,<2.8.0a0"
+  ],
+  "extracted_package_dir": "/Applications/anaconda3/pkgs/gmpy2-2.1.0b1-py27h4160ff4_0",
+  "features": "",
+  "files": [
+    "lib/python2.7/site-packages/gmpy2-2.1.0b1-py2.7-macosx-10.9-x86_64.egg-info/PKG-INFO",
+    "lib/python2.7/site-packages/gmpy2-2.1.0b1-py2.7-macosx-10.9-x86_64.egg-info/SOURCES.txt",
+    "lib/python2.7/site-packages/gmpy2-2.1.0b1-py2.7-macosx-10.9-x86_64.egg-info/dependency_links.txt",
+    "lib/python2.7/site-packages/gmpy2-2.1.0b1-py2.7-macosx-10.9-x86_64.egg-info/native_libs.txt",
+    "lib/python2.7/site-packages/gmpy2-2.1.0b1-py2.7-macosx-10.9-x86_64.egg-info/not-zip-safe",
+    "lib/python2.7/site-packages/gmpy2-2.1.0b1-py2.7-macosx-10.9-x86_64.egg-info/top_level.txt",
+    "lib/python2.7/site-packages/gmpy2/__init__.pxd",
+    "lib/python2.7/site-packages/gmpy2/__init__.py",
+    "lib/python2.7/site-packages/gmpy2/__init__.pyc",
+    "lib/python2.7/site-packages/gmpy2/gmpy2.h",
+    "lib/python2.7/site-packages/gmpy2/gmpy2.pxd",
+    "lib/python2.7/site-packages/gmpy2/gmpy2.py",
+    "lib/python2.7/site-packages/gmpy2/gmpy2.pyc",
+    "lib/python2.7/site-packages/gmpy2/gmpy2.so"
+  ],
+  "fn": "gmpy2-2.1.0b1-py27h4160ff4_0.tar.bz2",
+  "license": "LGPL 3",
+  "link": {
+    "source": "/Applications/anaconda3/pkgs/gmpy2-2.1.0b1-py27h4160ff4_0",
+    "type": 1
+  },
+  "md5": "e49ecbf8d5e872f244e6dfb237031843",
+  "name": "gmpy2",
+  "package_tarball_full_path": "/Applications/anaconda3/pkgs/gmpy2-2.1.0b1-py27h4160ff4_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python2.7/site-packages/gmpy2-2.1.0b1-py2.7-macosx-10.9-x86_64.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "2921478a22c025f2e589a2fd964765fd04cb40a1d8e98af102b57db77f151483",
+        "sha256_in_prefix": "2921478a22c025f2e589a2fd964765fd04cb40a1d8e98af102b57db77f151483",
+        "size_in_bytes": 2174
+      },
+      {
+        "_path": "lib/python2.7/site-packages/gmpy2-2.1.0b1-py2.7-macosx-10.9-x86_64.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "4253b7094b32db6eb724e4bd249e2dfc27fb67098ef45d82612e12429d391a6b",
+        "sha256_in_prefix": "4253b7094b32db6eb724e4bd249e2dfc27fb67098ef45d82612e12429d391a6b",
+        "size_in_bytes": 4633
+      },
+      {
+        "_path": "lib/python2.7/site-packages/gmpy2-2.1.0b1-py2.7-macosx-10.9-x86_64.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python2.7/site-packages/gmpy2-2.1.0b1-py2.7-macosx-10.9-x86_64.egg-info/native_libs.txt",
+        "path_type": "hardlink",
+        "sha256": "a915a796a9c876cae1587ef4407e29faa47174693d31079aa33c099ba11055d4",
+        "sha256_in_prefix": "a915a796a9c876cae1587ef4407e29faa47174693d31079aa33c099ba11055d4",
+        "size_in_bytes": 15
+      },
+      {
+        "_path": "lib/python2.7/site-packages/gmpy2-2.1.0b1-py2.7-macosx-10.9-x86_64.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python2.7/site-packages/gmpy2-2.1.0b1-py2.7-macosx-10.9-x86_64.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "4a6e8660420bb413e4fe08f3d2c9e04e3c792669f879bb7179b7644153898114",
+        "sha256_in_prefix": "4a6e8660420bb413e4fe08f3d2c9e04e3c792669f879bb7179b7644153898114",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python2.7/site-packages/gmpy2/__init__.pxd",
+        "path_type": "hardlink",
+        "sha256": "de9ed5a04d31e6b5b1381d783bca4210e0a547a037dd543ed66cb068d78e7e53",
+        "sha256_in_prefix": "de9ed5a04d31e6b5b1381d783bca4210e0a547a037dd543ed66cb068d78e7e53",
+        "size_in_bytes": 27
+      },
+      {
+        "_path": "lib/python2.7/site-packages/gmpy2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6720f053cde26175c2c4c3fa1c774e9c6c22865e40119c47cde58a250d6cb0c3",
+        "sha256_in_prefix": "6720f053cde26175c2c4c3fa1c774e9c6c22865e40119c47cde58a250d6cb0c3",
+        "size_in_bytes": 381
+      },
+      {
+        "_path": "lib/python2.7/site-packages/gmpy2/__init__.pyc",
+        "path_type": "hardlink",
+        "sha256": "131992cbbe7a9f0a2b89e7ebf798aad762e825d3f1676508b749d867c9eb5a5a",
+        "sha256_in_prefix": "131992cbbe7a9f0a2b89e7ebf798aad762e825d3f1676508b749d867c9eb5a5a",
+        "size_in_bytes": 396
+      },
+      {
+        "_path": "lib/python2.7/site-packages/gmpy2/gmpy2.h",
+        "path_type": "hardlink",
+        "sha256": "f166826e2b157d763c7618e10166f45269a7472b45d3020fd85d675efef47a1e",
+        "sha256_in_prefix": "f166826e2b157d763c7618e10166f45269a7472b45d3020fd85d675efef47a1e",
+        "size_in_bytes": 20999
+      },
+      {
+        "_path": "lib/python2.7/site-packages/gmpy2/gmpy2.pxd",
+        "path_type": "hardlink",
+        "sha256": "f36a87076d4fd08e64f11bc915fcefb66a3e17248b8c09f670f07702395eb8e2",
+        "sha256_in_prefix": "f36a87076d4fd08e64f11bc915fcefb66a3e17248b8c09f670f07702395eb8e2",
+        "size_in_bytes": 4681
+      },
+      {
+        "_path": "lib/python2.7/site-packages/gmpy2/gmpy2.py",
+        "path_type": "hardlink",
+        "sha256": "0ad5c4626d859d28c7ccce2cc9fc44982ac5faf0214a5b821b319ee84f9b3a3b",
+        "sha256_in_prefix": "0ad5c4626d859d28c7ccce2cc9fc44982ac5faf0214a5b821b319ee84f9b3a3b",
+        "size_in_bytes": 281
+      },
+      {
+        "_path": "lib/python2.7/site-packages/gmpy2/gmpy2.pyc",
+        "path_type": "hardlink",
+        "sha256": "330754d69457f775232de14b18082c9dfb4ddd5a90aee1fb4f88f43475d26a5d",
+        "sha256_in_prefix": "330754d69457f775232de14b18082c9dfb4ddd5a90aee1fb4f88f43475d26a5d",
+        "size_in_bytes": 617
+      },
+      {
+        "_path": "lib/python2.7/site-packages/gmpy2/gmpy2.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/gmpy2_1572484353515/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "966286d8eeb9b4dcd684669c682cdf6ac121860ee07032d93d3e444383b1fc6d",
+        "sha256_in_prefix": "c4bb03610398b1eb394625d9f83641a4ca3bd9e84d995811eeb2e5ef8b024847",
+        "size_in_bytes": 551784
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "160c27a843b3776ba33bb9ae64e5258ffb13dc29c6e75d1c8de5d11cf9c90165",
+  "size": 194039,
+  "subdir": "osx-64",
+  "timestamp": 1572484533531,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/gmpy2-2.1.0b1-py27h4160ff4_0.tar.bz2",
+  "version": "2.1.0b1"
+}

@@ -1,0 +1,37 @@
+{
+  "build": "py27_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [
+    "python_abi * *_cp27m"
+  ],
+  "depends": [
+    "matplotlib-base 2.2.3 py27hd64abcd_1",
+    "python >=2.7,<2.8.0a0"
+  ],
+  "extracted_package_dir": "/Applications/anaconda3/pkgs/matplotlib-2.2.3-py27_1",
+  "features": "",
+  "files": [],
+  "fn": "matplotlib-2.2.3-py27_1.tar.bz2",
+  "license": "PSF-based",
+  "license_family": "PSF",
+  "link": {
+    "source": "/Applications/anaconda3/pkgs/matplotlib-2.2.3-py27_1",
+    "type": 1
+  },
+  "md5": "f358695b173bb33b58b3337a31a56a67",
+  "name": "matplotlib",
+  "package_tarball_full_path": "/Applications/anaconda3/pkgs/matplotlib-2.2.3-py27_1.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "matplotlib",
+  "sha256": "d4e1e9e8229ee474ab0ebe97e3b63df866637b64a172dfc811a9288b6040df12",
+  "size": 6596,
+  "subdir": "osx-64",
+  "timestamp": 1548942883124,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/matplotlib-2.2.3-py27_1.tar.bz2",
+  "version": "2.2.3"
+}

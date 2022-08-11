@@ -1,0 +1,47 @@
+#!/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/bin/python
+#
+# This script prints all modules found in the instant cache
+
+__author__ = "Martin Alnes (martinal@simula.no)"
+__date__ = "2008-09-02 -- 2008-10-16"
+__copyright__ = "Copyright (C) 2008 Martin Alnes"
+__license__  = "GNU GPL version 3 or any later version"
+
+import os, sys, shutil, tempfile, glob
+try:
+    import instant
+except:
+    print("Instant not installed, exiting...")
+    sys.exit(1)
+
+files = sys.argv[1:]
+if files:
+    print("Showing contents of files: ", files)
+
+modules = instant.cached_modules()
+lockfiles = [m for m in modules if     m.endswith(".lock")]
+modules   = [m for m in modules if not m.endswith(".lock")]
+
+print("Found %d modules in Instant cache:" % len(modules))
+
+for module in modules:
+    print(module)
+    
+    if files:
+        for f in files:
+            filepath = os.path.join(instant.get_default_cache_dir(), module, f)
+            filenames = glob.glob(filepath)
+            for filename in filenames:
+                print("Contents of file '%s':" % filename)
+                try:
+                    lines = open(filename).readlines()
+                    print("".join(lines))
+                except:
+                    print("Failed to open.")
+            print()
+        print()
+
+print("Found %d lock files in Instant cache:" % len(lockfiles))
+
+for lockfile in lockfiles:
+    print(lockfile)

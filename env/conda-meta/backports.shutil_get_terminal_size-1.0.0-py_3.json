@@ -1,0 +1,120 @@
+{
+  "build": "py_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "backports",
+    "python"
+  ],
+  "extracted_package_dir": "/Applications/anaconda3/pkgs/backports.shutil_get_terminal_size-1.0.0-py_3",
+  "features": "",
+  "files": [
+    "lib/python2.7/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/DESCRIPTION.rst",
+    "lib/python2.7/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/INSTALLER",
+    "lib/python2.7/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/METADATA",
+    "lib/python2.7/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/RECORD",
+    "lib/python2.7/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/WHEEL",
+    "lib/python2.7/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/metadata.json",
+    "lib/python2.7/site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/top_level.txt",
+    "lib/python2.7/site-packages/backports/shutil_get_terminal_size/__init__.py",
+    "lib/python2.7/site-packages/backports/shutil_get_terminal_size/get_terminal_size.py",
+    "lib/python2.7/site-packages/backports/shutil_get_terminal_size/__init__.pyc",
+    "lib/python2.7/site-packages/backports/shutil_get_terminal_size/get_terminal_size.pyc"
+  ],
+  "fn": "backports.shutil_get_terminal_size-1.0.0-py_3.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Applications/anaconda3/pkgs/backports.shutil_get_terminal_size-1.0.0-py_3",
+    "type": 1
+  },
+  "md5": "ed3c4ce59b457c5fd7ca79b94c57eff4",
+  "name": "backports.shutil_get_terminal_size",
+  "noarch": "python",
+  "package_tarball_full_path": "/Applications/anaconda3/pkgs/backports.shutil_get_terminal_size-1.0.0-py_3.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/DESCRIPTION.rst",
+        "path_type": "hardlink",
+        "sha256": "de2d7792f7bc50bb826353468fb54a934f3d019ae37d86117029d94259a22414",
+        "sha256_in_prefix": "de2d7792f7bc50bb826353468fb54a934f3d019ae37d86117029d94259a22414",
+        "size_in_bytes": 596
+      },
+      {
+        "_path": "site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "383215d9bd2c9d46a05e3339467f6af48a209eeb857f7de76241e6ed993ce253",
+        "sha256_in_prefix": "383215d9bd2c9d46a05e3339467f6af48a209eeb857f7de76241e6ed993ce253",
+        "size_in_bytes": 1175
+      },
+      {
+        "_path": "site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "36df652bb1af8b2a9e8d627b6c2f952a4e04db64071bc735d29909cd05f70241",
+        "sha256_in_prefix": "36df652bb1af8b2a9e8d627b6c2f952a4e04db64071bc735d29909cd05f70241",
+        "size_in_bytes": 1269
+      },
+      {
+        "_path": "site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "91db0dfb93890192221cdfa23b846197cd8ac92d1b0d67f8b81c0c6e435a7ebf",
+        "sha256_in_prefix": "91db0dfb93890192221cdfa23b846197cd8ac92d1b0d67f8b81c0c6e435a7ebf",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/metadata.json",
+        "path_type": "hardlink",
+        "sha256": "2e6c6d0e898588174c03a0769ccb0328f6effa271f1fe9164ea6a464e4b9f6fe",
+        "sha256_in_prefix": "2e6c6d0e898588174c03a0769ccb0328f6effa271f1fe9164ea6a464e4b9f6fe",
+        "size_in_bytes": 737
+      },
+      {
+        "_path": "site-packages/backports.shutil_get_terminal_size-1.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7068da2cc3a8051d452b4029a23b73595995893b49ec91882bf1f05e212cbed5",
+        "sha256_in_prefix": "7068da2cc3a8051d452b4029a23b73595995893b49ec91882bf1f05e212cbed5",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/backports/shutil_get_terminal_size/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b0f51db8598586bbbfab580b72fe6030ddc8ded51249253d625bee55d8508dda",
+        "sha256_in_prefix": "b0f51db8598586bbbfab580b72fe6030ddc8ded51249253d625bee55d8508dda",
+        "size_in_bytes": 338
+      },
+      {
+        "_path": "site-packages/backports/shutil_get_terminal_size/get_terminal_size.py",
+        "path_type": "hardlink",
+        "sha256": "9da9f2f3e7200709aa2deee08882747bb7363d5edd4e9f3d43b7c6b3152b3502",
+        "sha256_in_prefix": "9da9f2f3e7200709aa2deee08882747bb7363d5edd4e9f3d43b7c6b3152b3502",
+        "size_in_bytes": 2913
+      },
+      {
+        "_path": "lib/python2.7/site-packages/backports/shutil_get_terminal_size/__init__.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/backports/shutil_get_terminal_size/get_terminal_size.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "02f90972bce1d721ad19f90f699aa95bf84964df720e85485c6035838427933f",
+  "size": 6747,
+  "subdir": "noarch",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/backports.shutil_get_terminal_size-1.0.0-py_3.tar.bz2",
+  "version": "1.0.0"
+}

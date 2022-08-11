@@ -1,0 +1,99 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/Applications/anaconda3/pkgs/contextlib2-0.6.0.post1-py_0",
+  "features": "",
+  "files": [
+    "lib/python2.7/site-packages/contextlib2-0.6.0.post1.dist-info/INSTALLER",
+    "lib/python2.7/site-packages/contextlib2-0.6.0.post1.dist-info/LICENSE.txt",
+    "lib/python2.7/site-packages/contextlib2-0.6.0.post1.dist-info/METADATA",
+    "lib/python2.7/site-packages/contextlib2-0.6.0.post1.dist-info/RECORD",
+    "lib/python2.7/site-packages/contextlib2-0.6.0.post1.dist-info/WHEEL",
+    "lib/python2.7/site-packages/contextlib2-0.6.0.post1.dist-info/top_level.txt",
+    "lib/python2.7/site-packages/contextlib2.py",
+    "lib/python2.7/site-packages/contextlib2.pyc"
+  ],
+  "fn": "contextlib2-0.6.0.post1-py_0.tar.bz2",
+  "license": "PSF 2",
+  "license_family": "PSF",
+  "link": {
+    "source": "/Applications/anaconda3/pkgs/contextlib2-0.6.0.post1-py_0",
+    "type": 1
+  },
+  "md5": "88cbe489355adaaa4c38ed55bbd620f3",
+  "name": "contextlib2",
+  "noarch": "python",
+  "package_tarball_full_path": "/Applications/anaconda3/pkgs/contextlib2-0.6.0.post1-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/contextlib2-0.6.0.post1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/contextlib2-0.6.0.post1.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "c6a7affac6acdad2d2dd87d2d768438624ab692618db1f02bea3b11d3f3978f0",
+        "sha256_in_prefix": "c6a7affac6acdad2d2dd87d2d768438624ab692618db1f02bea3b11d3f3978f0",
+        "size_in_bytes": 6054
+      },
+      {
+        "_path": "site-packages/contextlib2-0.6.0.post1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "fe405c7f754991b7be10cc80335739b79b11c0115f16ee5871f58224c8153b54",
+        "sha256_in_prefix": "fe405c7f754991b7be10cc80335739b79b11c0115f16ee5871f58224c8153b54",
+        "size_in_bytes": 2297
+      },
+      {
+        "_path": "site-packages/contextlib2-0.6.0.post1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "9bb88dd0950e4b96ce283f609603041ec3d05c59dd35e012368a3a1bd026f224",
+        "sha256_in_prefix": "9bb88dd0950e4b96ce283f609603041ec3d05c59dd35e012368a3a1bd026f224",
+        "size_in_bytes": 636
+      },
+      {
+        "_path": "site-packages/contextlib2-0.6.0.post1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f3335865bc10497a01f487d73a33df78dc2f02c00b0237df824dbb16abc259ba",
+        "sha256_in_prefix": "f3335865bc10497a01f487d73a33df78dc2f02c00b0237df824dbb16abc259ba",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/contextlib2-0.6.0.post1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "47159604c90703faecc3595a5c9f0bdf213f7f261a066bedd9b554be3dd66cc8",
+        "sha256_in_prefix": "47159604c90703faecc3595a5c9f0bdf213f7f261a066bedd9b554be3dd66cc8",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "site-packages/contextlib2.py",
+        "path_type": "hardlink",
+        "sha256": "e478c67e5533c160147dc20b852982d86aafa1875967317355f203ced1e2814b",
+        "sha256_in_prefix": "e478c67e5533c160147dc20b852982d86aafa1875967317355f203ced1e2814b",
+        "size_in_bytes": 16915
+      },
+      {
+        "_path": "lib/python2.7/site-packages/contextlib2.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1d7cfaa5b173034c37fa06662815a546d249110b08c23658b2e5bb5071a65257",
+  "size": 12653,
+  "subdir": "noarch",
+  "timestamp": 1570716599399,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/contextlib2-0.6.0.post1-py_0.tar.bz2",
+  "version": "0.6.0.post1"
+}

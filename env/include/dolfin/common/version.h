@@ -1,0 +1,12 @@
+#ifndef __DOLFIN_VERSION_H
+#define __DOLFIN_VERSION_H
+
+#define DOLFIN_VERSION_RELEASE 1
+#define DOLFIN_VERSION_MAJOR   2017
+#define DOLFIN_VERSION_MINOR   1
+#define DOLFIN_VERSION_MICRO   0
+#define DOLFIN_VERSION_STRING  "2017.1.0"
+#define DOLFIN_VERSION_GIT     ""
+#define UFC_SIGNATURE          "774961d20661a3ae58b8c61abbb7d4ccfad1cbac"
+
+#endif

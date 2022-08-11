@@ -1,0 +1,13 @@
+prefix=/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/lib
+ccompiler=mpicc
+blaslapacklibs=-lopenblas
+
+Name: PETSc
+Description: Library to solve ODEs and algebraic equations
+Version: 3.7.2
+Cflags: -I/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/include -I/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/include -I/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/include
+Libs: -L/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/lib  -lpetsc
+Libs.private: -lopenblas -Wl,-rpath,/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/lib -L/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/lib -Wl,-rpath,/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.0/lib/darwin -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.0/lib/darwin -lclang_rt.osx -lmpicxx -lc++ -Wl,-rpath,/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin -lclang_rt.osx -Wl,-rpath,/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/lib -L/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/lib -Wl,-rpath,/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/lib -ldl -lmpi -lpmpi -lSystem -Wl,-rpath,/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin -lclang_rt.osx -ldl -Wl,-rpath,/Users/charlesmann/Research/UK/repositories/myofe_training_notebooks/env/lib

@@ -1,0 +1,165 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "six >=1.0.0,<2.0.0"
+  ],
+  "extracted_package_dir": "/Applications/anaconda3/pkgs/more-itertools-5.0.0-py_0",
+  "features": "",
+  "files": [
+    "lib/python2.7/site-packages/more_itertools-5.0.0.dist-info/INSTALLER",
+    "lib/python2.7/site-packages/more_itertools-5.0.0.dist-info/LICENSE",
+    "lib/python2.7/site-packages/more_itertools-5.0.0.dist-info/METADATA",
+    "lib/python2.7/site-packages/more_itertools-5.0.0.dist-info/RECORD",
+    "lib/python2.7/site-packages/more_itertools-5.0.0.dist-info/WHEEL",
+    "lib/python2.7/site-packages/more_itertools-5.0.0.dist-info/top_level.txt",
+    "lib/python2.7/site-packages/more_itertools/__init__.py",
+    "lib/python2.7/site-packages/more_itertools/more.py",
+    "lib/python2.7/site-packages/more_itertools/recipes.py",
+    "lib/python2.7/site-packages/more_itertools/tests/__init__.py",
+    "lib/python2.7/site-packages/more_itertools/tests/test_more.py",
+    "lib/python2.7/site-packages/more_itertools/tests/test_recipes.py",
+    "lib/python2.7/site-packages/more_itertools/__init__.pyc",
+    "lib/python2.7/site-packages/more_itertools/more.pyc",
+    "lib/python2.7/site-packages/more_itertools/recipes.pyc",
+    "lib/python2.7/site-packages/more_itertools/tests/__init__.pyc",
+    "lib/python2.7/site-packages/more_itertools/tests/test_more.pyc",
+    "lib/python2.7/site-packages/more_itertools/tests/test_recipes.pyc"
+  ],
+  "fn": "more-itertools-5.0.0-py_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Applications/anaconda3/pkgs/more-itertools-5.0.0-py_0",
+    "type": 1
+  },
+  "md5": "368d2cb3377851a482b2f2b080aad3ee",
+  "name": "more-itertools",
+  "noarch": "python",
+  "package_tarball_full_path": "/Applications/anaconda3/pkgs/more-itertools-5.0.0-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/more_itertools-5.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/more_itertools-5.0.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+        "sha256_in_prefix": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+        "size_in_bytes": 1053
+      },
+      {
+        "_path": "site-packages/more_itertools-5.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "0f3efda2dfdcdb8b95d602e2a32b58a9c38a5509cb11936c867e7c9fa09dc3b7",
+        "sha256_in_prefix": "0f3efda2dfdcdb8b95d602e2a32b58a9c38a5509cb11936c867e7c9fa09dc3b7",
+        "size_in_bytes": 33824
+      },
+      {
+        "_path": "site-packages/more_itertools-5.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "c03df036df196e89eabf4d62849d4377fa68088bb501db43a306aefd542e1027",
+        "sha256_in_prefix": "c03df036df196e89eabf4d62849d4377fa68088bb501db43a306aefd542e1027",
+        "size_in_bytes": 1247
+      },
+      {
+        "_path": "site-packages/more_itertools-5.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ae121453793f815da20b2a4e34babecb0f2102f1ae5fe0680e02ffa2f0621d6d",
+        "sha256_in_prefix": "ae121453793f815da20b2a4e34babecb0f2102f1ae5fe0680e02ffa2f0621d6d",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/more_itertools-5.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7c0baa457bbd2cf871741f6e8c9a307053aed6b67cc334a9396f7f8e52a2b3a3",
+        "sha256_in_prefix": "7c0baa457bbd2cf871741f6e8c9a307053aed6b67cc334a9396f7f8e52a2b3a3",
+        "size_in_bytes": 15
+      },
+      {
+        "_path": "site-packages/more_itertools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4be9fa4bd37752996a537a7eec057ed599e5eb2270b97b09b6aae512af6d394c",
+        "sha256_in_prefix": "4be9fa4bd37752996a537a7eec057ed599e5eb2270b97b09b6aae512af6d394c",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/more_itertools/more.py",
+        "path_type": "hardlink",
+        "sha256": "d236ae66621a7f170fcaa8b69c4f44b39496c6e3ad4201a2f356710dd024c497",
+        "sha256_in_prefix": "d236ae66621a7f170fcaa8b69c4f44b39496c6e3ad4201a2f356710dd024c497",
+        "size_in_bytes": 74126
+      },
+      {
+        "_path": "site-packages/more_itertools/recipes.py",
+        "path_type": "hardlink",
+        "sha256": "7d1b6291e9d0f3425e3d33b069a81825474eb0e38a30a22abfad9bd3e8033387",
+        "sha256_in_prefix": "7d1b6291e9d0f3425e3d33b069a81825474eb0e38a30a22abfad9bd3e8033387",
+        "size_in_bytes": 15474
+      },
+      {
+        "_path": "site-packages/more_itertools/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/more_itertools/tests/test_more.py",
+        "path_type": "hardlink",
+        "sha256": "31eee19fe4ed96dc5148f7379327776d14d2dec515e320019397c65149705934",
+        "sha256_in_prefix": "31eee19fe4ed96dc5148f7379327776d14d2dec515e320019397c65149705934",
+        "size_in_bytes": 79615
+      },
+      {
+        "_path": "site-packages/more_itertools/tests/test_recipes.py",
+        "path_type": "hardlink",
+        "sha256": "d0147c2b70c2beeb57d2e278d04431f04e779949e17d79c61b83a737fe99d90a",
+        "sha256_in_prefix": "d0147c2b70c2beeb57d2e278d04431f04e779949e17d79c61b83a737fe99d90a",
+        "size_in_bytes": 19830
+      },
+      {
+        "_path": "lib/python2.7/site-packages/more_itertools/__init__.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/more_itertools/more.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/more_itertools/recipes.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/more_itertools/tests/__init__.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/more_itertools/tests/test_more.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/more_itertools/tests/test_recipes.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d910b0c24ed459ff5c9c5308fa3a05b2453c8085bc277ad02350ac161d706854",
+  "size": 45051,
+  "subdir": "noarch",
+  "timestamp": 1562246841145,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/more-itertools-5.0.0-py_0.tar.bz2",
+  "version": "5.0.0"
+}

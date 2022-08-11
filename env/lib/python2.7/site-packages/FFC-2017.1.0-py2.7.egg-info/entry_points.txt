@@ -1,0 +1,4 @@
+[console_scripts]
+ffc = ffc.__main__:main
+ffc-2 = ffc.__main__:main
+

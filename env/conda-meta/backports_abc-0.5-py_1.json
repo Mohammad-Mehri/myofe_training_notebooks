@@ -1,0 +1,90 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/Applications/anaconda3/pkgs/backports_abc-0.5-py_1",
+  "features": "",
+  "files": [
+    "lib/python2.7/site-packages/backports_abc-0.5-py2.7.egg-info/PKG-INFO",
+    "lib/python2.7/site-packages/backports_abc-0.5-py2.7.egg-info/SOURCES.txt",
+    "lib/python2.7/site-packages/backports_abc-0.5-py2.7.egg-info/dependency_links.txt",
+    "lib/python2.7/site-packages/backports_abc-0.5-py2.7.egg-info/installed-files.txt",
+    "lib/python2.7/site-packages/backports_abc-0.5-py2.7.egg-info/top_level.txt",
+    "lib/python2.7/site-packages/backports_abc.py",
+    "lib/python2.7/site-packages/backports_abc.pyc"
+  ],
+  "fn": "backports_abc-0.5-py_1.tar.bz2",
+  "license": "PSF 2",
+  "link": {
+    "source": "/Applications/anaconda3/pkgs/backports_abc-0.5-py_1",
+    "type": 1
+  },
+  "md5": "6ac8cc52b55791b066dc43469bbaf8f2",
+  "name": "backports_abc",
+  "noarch": "python",
+  "package_tarball_full_path": "/Applications/anaconda3/pkgs/backports_abc-0.5-py_1.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/backports_abc-0.5-py2.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "4e0e5063a58821a2bb719b58cb6d9fb44676f80ad0e40b1608ef7a108d2dcbad",
+        "sha256_in_prefix": "4e0e5063a58821a2bb719b58cb6d9fb44676f80ad0e40b1608ef7a108d2dcbad",
+        "size_in_bytes": 3501
+      },
+      {
+        "_path": "site-packages/backports_abc-0.5-py2.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "64fd73398c4f485e5ec8c32b1e69ed9757ee24a8a264d47a0cfb944ce5253379",
+        "sha256_in_prefix": "64fd73398c4f485e5ec8c32b1e69ed9757ee24a8a264d47a0cfb944ce5253379",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "site-packages/backports_abc-0.5-py2.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/backports_abc-0.5-py2.7.egg-info/installed-files.txt",
+        "path_type": "hardlink",
+        "sha256": "aff92d03113c62d32330894f93edd2a131cef26642d38e9691a580f9cd2813b5",
+        "sha256_in_prefix": "aff92d03113c62d32330894f93edd2a131cef26642d38e9691a580f9cd2813b5",
+        "size_in_bytes": 97
+      },
+      {
+        "_path": "site-packages/backports_abc-0.5-py2.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "56b4045ead7b09ef57d637ecb2d5ba8180f7832ab72a38a8fbcc0562295d933a",
+        "sha256_in_prefix": "56b4045ead7b09ef57d637ecb2d5ba8180f7832ab72a38a8fbcc0562295d933a",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "site-packages/backports_abc.py",
+        "path_type": "hardlink",
+        "sha256": "ffa4406c294b8829f4935b191a9d8537acae2dca988412a7111867a4403a0d39",
+        "sha256_in_prefix": "ffa4406c294b8829f4935b191a9d8537acae2dca988412a7111867a4403a0d39",
+        "size_in_bytes": 5526
+      },
+      {
+        "_path": "lib/python2.7/site-packages/backports_abc.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "83f483e86d1969579b15e2f1bacaa92be93137f95bf15784628420ce4341a12b",
+  "size": 5534,
+  "subdir": "noarch",
+  "timestamp": 1533913207795,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/backports_abc-0.5-py_1.tar.bz2",
+  "version": "0.5"
+}

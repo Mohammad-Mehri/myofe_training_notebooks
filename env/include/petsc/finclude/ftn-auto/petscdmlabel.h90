@@ -1,0 +1,49 @@
+      subroutine DMLabelHasValue(a,b,c,z)
+       DMLabel a ! DMLabel
+       PetscInt b ! PetscInt
+       PetscBool c ! PetscBool
+       integer z
+       end subroutine
+      subroutine DMLabelHasPoint(a,b,c,z)
+       DMLabel a ! DMLabel
+       PetscInt b ! PetscInt
+       PetscBool c ! PetscBool
+       integer z
+       end subroutine
+      subroutine DMLabelStratumHasPoint(a,b,c,d,z)
+       DMLabel a ! DMLabel
+       PetscInt b ! PetscInt
+       PetscInt c ! PetscInt
+       PetscBool d ! PetscBool
+       integer z
+       end subroutine
+      subroutine DMLabelGetValue(a,b,c,z)
+       DMLabel a ! DMLabel
+       PetscInt b ! PetscInt
+       PetscInt c ! PetscInt
+       integer z
+       end subroutine
+      subroutine DMLabelSetValue(a,b,c,z)
+       DMLabel a ! DMLabel
+       PetscInt b ! PetscInt
+       PetscInt c ! PetscInt
+       integer z
+       end subroutine
+      subroutine DMLabelClearValue(a,b,c,z)
+       DMLabel a ! DMLabel
+       PetscInt b ! PetscInt
+       PetscInt c ! PetscInt
+       integer z
+       end subroutine
+      subroutine DMLabelInsertIS(a,b,c,z)
+       DMLabel a ! DMLabel
+       IS b ! IS
+       PetscInt c ! PetscInt
+       integer z
+       end subroutine
+      subroutine DMLabelGather(a,b,c,z)
+       DMLabel a ! DMLabel
+       PetscSF b ! PetscSF
+       DMLabel c ! DMLabel
+       integer z
+       end subroutine

@@ -1,0 +1,226 @@
+      subroutine STCayleySetAntishift(a,b,z)
+       ST a ! ST
+       PetscScalar b ! PetscScalar
+       integer z
+       end subroutine
+      subroutine STCayleyGetAntishift(a,b,z)
+       ST a ! ST
+       PetscScalar b ! PetscScalar
+       integer z
+       end subroutine
+      subroutine STApply(a,b,c,z)
+       ST a ! ST
+       Vec b ! Vec
+       Vec c ! Vec
+       integer z
+       end subroutine
+      subroutine STApplyTranspose(a,b,c,z)
+       ST a ! ST
+       Vec b ! Vec
+       Vec c ! Vec
+       integer z
+       end subroutine
+      subroutine STGetBilinearForm(a,b,z)
+       ST a ! ST
+       Mat b ! Mat
+       integer z
+       end subroutine
+      subroutine STComputeExplicitOperator(a,b,z)
+       ST a ! ST
+       Mat b ! Mat
+       integer z
+       end subroutine
+      subroutine STSetUp(a,z)
+       ST a ! ST
+       integer z
+       end subroutine
+      subroutine STPostSolve(a,z)
+       ST a ! ST
+       integer z
+       end subroutine
+      subroutine STBackTransform(a,b,c,d,z)
+       ST a ! ST
+       PetscInt b ! PetscInt
+       PetscScalar c ! PetscScalar
+       PetscScalar d ! PetscScalar
+       integer z
+       end subroutine
+      subroutine STMatSetUp(a,b,c,z)
+       ST a ! ST
+       PetscScalar b ! PetscScalar
+       PetscScalar c ! PetscScalar
+       integer z
+       end subroutine
+      subroutine STSetFromOptions(a,z)
+       ST a ! ST
+       integer z
+       end subroutine
+      subroutine STSetMatStructure(a,b,z)
+       ST a ! ST
+       MatStructure b ! MatStructure
+       integer z
+       end subroutine
+      subroutine STGetMatStructure(a,b,z)
+       ST a ! ST
+       MatStructure b ! MatStructure
+       integer z
+       end subroutine
+      subroutine STSetMatMode(a,b,z)
+       ST a ! ST
+       STMatMode b ! STMatMode
+       integer z
+       end subroutine
+      subroutine STGetMatMode(a,b,z)
+       ST a ! ST
+       STMatMode b ! STMatMode
+       integer z
+       end subroutine
+      subroutine STSetTransform(a,b,z)
+       ST a ! ST
+       PetscBool b ! PetscBool
+       integer z
+       end subroutine
+      subroutine STGetTransform(a,b,z)
+       ST a ! ST
+       PetscBool b ! PetscBool
+       integer z
+       end subroutine
+      subroutine STMatMult(a,b,c,d,z)
+       ST a ! ST
+       PetscInt b ! PetscInt
+       Vec c ! Vec
+       Vec d ! Vec
+       integer z
+       end subroutine
+      subroutine STMatMultTranspose(a,b,c,d,z)
+       ST a ! ST
+       PetscInt b ! PetscInt
+       Vec c ! Vec
+       Vec d ! Vec
+       integer z
+       end subroutine
+      subroutine STMatSolve(a,b,c,z)
+       ST a ! ST
+       Vec b ! Vec
+       Vec c ! Vec
+       integer z
+       end subroutine
+      subroutine STMatSolveTranspose(a,b,c,z)
+       ST a ! ST
+       Vec b ! Vec
+       Vec c ! Vec
+       integer z
+       end subroutine
+      subroutine STSetKSP(a,b,z)
+       ST a ! ST
+       KSP b ! KSP
+       integer z
+       end subroutine
+      subroutine STGetKSP(a,b,z)
+       ST a ! ST
+       KSP b ! KSP
+       integer z
+       end subroutine
+      subroutine STCheckNullSpace(a,b,z)
+       ST a ! ST
+       BV b ! BV
+       integer z
+       end subroutine
+      subroutine STReset(a,z)
+       ST a ! ST
+       integer z
+       end subroutine
+      subroutine STDestroy(a,z)
+       ST a ! ST
+       integer z
+       end subroutine
+      subroutine STCreate(a,b,z)
+       integer a ! MPI_Comm
+       ST b ! ST
+       integer z
+       end subroutine
+      subroutine STSetOperators(a,b,c,z)
+       ST a ! ST
+       PetscInt b ! PetscInt
+       Mat c (*) ! Mat
+       integer z
+       end subroutine
+      subroutine STGetOperators(a,b,c,z)
+       ST a ! ST
+       PetscInt b ! PetscInt
+       Mat c ! Mat
+       integer z
+       end subroutine
+      subroutine STGetTOperators(a,b,c,z)
+       ST a ! ST
+       PetscInt b ! PetscInt
+       Mat c ! Mat
+       integer z
+       end subroutine
+      subroutine STGetNumMatrices(a,b,z)
+       ST a ! ST
+       PetscInt b ! PetscInt
+       integer z
+       end subroutine
+      subroutine STSetShift(a,b,z)
+       ST a ! ST
+       PetscScalar b ! PetscScalar
+       integer z
+       end subroutine
+      subroutine STGetShift(a,b,z)
+       ST a ! ST
+       PetscScalar b ! PetscScalar
+       integer z
+       end subroutine
+      subroutine STSetDefaultShift(a,b,z)
+       ST a ! ST
+       PetscScalar b ! PetscScalar
+       integer z
+       end subroutine
+      subroutine STScaleShift(a,b,z)
+       ST a ! ST
+       PetscScalar b ! PetscScalar
+       integer z
+       end subroutine
+      subroutine STSetBalanceMatrix(a,b,z)
+       ST a ! ST
+       Vec b ! Vec
+       integer z
+       end subroutine
+      subroutine STGetBalanceMatrix(a,b,z)
+       ST a ! ST
+       Vec b ! Vec
+       integer z
+       end subroutine
+      subroutine STMatGetSize(a,b,c,z)
+       ST a ! ST
+       PetscInt b ! PetscInt
+       PetscInt c ! PetscInt
+       integer z
+       end subroutine
+      subroutine STMatGetLocalSize(a,b,c,z)
+       ST a ! ST
+       PetscInt b ! PetscInt
+       PetscInt c ! PetscInt
+       integer z
+       end subroutine
+      subroutine STPrecondGetMatForPC(a,b,z)
+       ST a ! ST
+       Mat b ! Mat
+       integer z
+       end subroutine
+      subroutine STPrecondSetMatForPC(a,b,z)
+       ST a ! ST
+       Mat b ! Mat
+       integer z
+       end subroutine
+      subroutine STPrecondSetKSPHasMat(a,b,z)
+       ST a ! ST
+       PetscBool b ! PetscBool
+       integer z
+       end subroutine
+      subroutine STPrecondGetKSPHasMat(a,b,z)
+       ST a ! ST
+       PetscBool b ! PetscBool
+       integer z
+       end subroutine
