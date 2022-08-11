@@ -1,0 +1,790 @@
+<?xml version="1.0"?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf Version="3.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <Domain>
+    <Grid Name="TimeSeries_f_2272-0" GridType="Collection" CollectionType="Temporal">
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="6" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="6 4" NumberType="UInt" Format="XML">0 1 3 7
+0 1 5 7
+0 4 5 7
+0 2 3 7
+0 4 6 7
+0 2 6 7
+</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+1 0 0
+0 1 0
+1 1 0
+0 0 1
+1 0 1
+0 1 1
+1 1 1
+</DataItem>
+        </Geometry>
+        <Time Value="0" />
+        <Attribute Name="f_2272-0" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="6" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="6 4" NumberType="UInt" Format="XML">0 1 3 7
+0 1 5 7
+0 4 5 7
+0 2 3 7
+0 4 6 7
+0 2 6 7
+</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+1 0 0
+0 1 0
+1 1 0
+0 0 1
+1 0 1
+0 1 1
+1 1 1
+</DataItem>
+        </Geometry>
+        <Time Value="1" />
+        <Attribute Name="f_2272-0" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+0.08371526715389202 5.572078080645069e-16 0
+0 -0.03940039400631382 0
+0.08371526715389054 -0.03940039400631329 0
+0 2.7466619241049e-16 -0.03940039400631393
+0.0837152671538907 4.482206070164592e-16 -0.0394003940063137
+0 -0.03940039400631363 -0.0394003940063138
+0.08371526715389148 -0.03940039400631314 -0.03940039400631346
+</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="6" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="6 4" NumberType="UInt" Format="XML">0 1 3 7
+0 1 5 7
+0 4 5 7
+0 2 3 7
+0 4 6 7
+0 2 6 7
+</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+1 0 0
+0 1 0
+1 1 0
+0 0 1
+1 0 1
+0 1 1
+1 1 1
+</DataItem>
+        </Geometry>
+        <Time Value="2" />
+        <Attribute Name="f_2272-0" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+0.1600579176357853 4.537290293480508e-16 0
+0 -0.07154648720146282 0
+0.1600579176357831 -0.07154648720146216 0
+0 1.005419288078097e-16 -0.07154648720146307
+0.1600579176357831 4.027813984360237e-16 -0.07154648720146255
+0 -0.07154648720146262 -0.07154648720146278
+0.1600579176357843 -0.07154648720146213 -0.07154648720146241
+</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="6" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="6 4" NumberType="UInt" Format="XML">0 1 3 7
+0 1 5 7
+0 4 5 7
+0 2 3 7
+0 4 6 7
+0 2 6 7
+</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+1 0 0
+0 1 0
+1 1 0
+0 0 1
+1 0 1
+0 1 1
+1 1 1
+</DataItem>
+        </Geometry>
+        <Time Value="3" />
+        <Attribute Name="f_2272-0" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+0.22024066008526 4.181282115251598e-16 0
+0 -0.09473182284275551 0
+0.2202406600852572 -0.09473182284275482 0
+0 -9.500394172050143e-17 -0.0947318228427558
+0.2202406600852572 2.229156437790413e-16 -0.09473182284275515
+0 -0.09473182284275536 -0.09473182284275525
+0.2202406600852588 -0.09473182284275489 -0.0947318228427549
+</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="6" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="6 4" NumberType="UInt" Format="XML">0 1 3 7
+0 1 5 7
+0 4 5 7
+0 2 3 7
+0 4 6 7
+0 2 6 7
+</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+1 0 0
+0 1 0
+1 1 0
+0 0 1
+1 0 1
+0 1 1
+1 1 1
+</DataItem>
+        </Geometry>
+        <Time Value="4" />
+        <Attribute Name="f_2272-0" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+0.2667839499231652 3.057358605044792e-16 0
+0 -0.1115178156002779 0
+0.2667839499231619 -0.1115178156002771 0
+0 -1.167355353520374e-16 -0.1115178156002782
+0.2667839499231621 2.234625250211013e-16 -0.1115178156002774
+0 -0.1115178156002777 -0.1115178156002776
+0.2667839499231639 -0.1115178156002772 -0.1115178156002773
+</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="6" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="6 4" NumberType="UInt" Format="XML">0 1 3 7
+0 1 5 7
+0 4 5 7
+0 2 3 7
+0 4 6 7
+0 2 6 7
+</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+1 0 0
+0 1 0
+1 1 0
+0 0 1
+1 0 1
+0 1 1
+1 1 1
+</DataItem>
+        </Geometry>
+        <Time Value="5" />
+        <Attribute Name="f_2272-0" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+0.3036414019502632 4.413392415099197e-16 0
+0 -0.1241677603115163 0
+0.3036414019502597 -0.1241677603115153 0
+0 8.146566524021934e-18 -0.1241677603115166
+0.3036414019502597 3.075751091608645e-16 -0.1241677603115158
+0 -0.1241677603115158 -0.124167760311516
+0.3036414019502618 -0.1241677603115154 -0.1241677603115156
+</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="6" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="6 4" NumberType="UInt" Format="XML">0 1 3 7
+0 1 5 7
+0 4 5 7
+0 2 3 7
+0 4 6 7
+0 2 6 7
+</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+1 0 0
+0 1 0
+1 1 0
+0 0 1
+1 0 1
+0 1 1
+1 1 1
+</DataItem>
+        </Geometry>
+        <Time Value="6" />
+        <Attribute Name="f_2272-0" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+0.3336880429123193 2.70171113806978e-16 0
+0 -0.1340897685512971 0
+0.3336880429123158 -0.1340897685512962 0
+0 -1.182562354458918e-16 -0.1340897685512974
+0.3336880429123157 7.790014338181706e-17 -0.1340897685512964
+0 -0.1340897685512966 -0.1340897685512967
+0.3336880429123179 -0.1340897685512964 -0.1340897685512964
+</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="6" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="6 4" NumberType="UInt" Format="XML">0 1 3 7
+0 1 5 7
+0 4 5 7
+0 2 3 7
+0 4 6 7
+0 2 6 7
+</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+1 0 0
+0 1 0
+1 1 0
+0 0 1
+1 0 1
+0 1 1
+1 1 1
+</DataItem>
+        </Geometry>
+        <Time Value="7" />
+        <Attribute Name="f_2272-0" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+0.3588158968841164 2.819541684212649e-16 0
+0 -0.1421335362158617 0
+0.3588158968841121 -0.1421335362158607 0
+0 -1.236167176403129e-16 -0.1421335362158619
+0.3588158968841124 1.043950600538548e-16 -0.142133536215861
+0 -0.1421335362158611 -0.1421335362158612
+0.3588158968841144 -0.142133536215861 -0.1421335362158609
+</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="6" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="6 4" NumberType="UInt" Format="XML">0 1 3 7
+0 1 5 7
+0 4 5 7
+0 2 3 7
+0 4 6 7
+0 2 6 7
+</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+1 0 0
+0 1 0
+1 1 0
+0 0 1
+1 0 1
+0 1 1
+1 1 1
+</DataItem>
+        </Geometry>
+        <Time Value="8" />
+        <Attribute Name="f_2272-0" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+0.380276755179494 1.310612723179758e-16 0
+0 -0.1488288149748551 0
+0.3802767551794903 -0.148828814974854 0
+0 -2.713472894790518e-16 -0.1488288149748553
+0.3802767551794901 1.159145011140845e-16 -0.1488288149748542
+0 -0.1488288149748545 -0.1488288149748545
+0.3802767551794922 -0.1488288149748542 -0.1488288149748542
+</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="6" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="6 4" NumberType="UInt" Format="XML">0 1 3 7
+0 1 5 7
+0 4 5 7
+0 2 3 7
+0 4 6 7
+0 2 6 7
+</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+1 0 0
+0 1 0
+1 1 0
+0 0 1
+1 0 1
+0 1 1
+1 1 1
+</DataItem>
+        </Geometry>
+        <Time Value="9" />
+        <Attribute Name="f_2272-0" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+0.3989227499999555 2.887674747067853e-16 0
+0 -0.1545203994954927 0
+0.3989227499999517 -0.1545203994954918 0
+0 -3.123583129020333e-16 -0.1545203994954931
+0.3989227499999515 5.891574535894615e-17 -0.154520399495492
+0 -0.1545203994954923 -0.1545203994954921
+0.3989227499999539 -0.1545203994954922 -0.1545203994954919
+</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="6" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="6 4" NumberType="UInt" Format="XML">0 1 3 7
+0 1 5 7
+0 4 5 7
+0 2 3 7
+0 4 6 7
+0 2 6 7
+</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+1 0 0
+0 1 0
+1 1 0
+0 0 1
+1 0 1
+0 1 1
+1 1 1
+</DataItem>
+        </Geometry>
+        <Time Value="10" />
+        <Attribute Name="f_2272-0" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+0.4153526486550825 2.927570369619478e-16 0
+0 -0.1594420326841891 0
+0.415352648655078 -0.1594420326841881 0
+0 -2.395575854118223e-16 -0.1594420326841894
+0.4153526486550781 7.838608179246609e-17 -0.1594420326841884
+0 -0.1594420326841886 -0.1594420326841885
+0.4153526486550803 -0.1594420326841884 -0.1594420326841884
+</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="6" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="6 4" NumberType="UInt" Format="XML">0 1 3 7
+0 1 5 7
+0 4 5 7
+0 2 3 7
+0 4 6 7
+0 2 6 7
+</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+1 0 0
+0 1 0
+1 1 0
+0 0 1
+1 0 1
+0 1 1
+1 1 1
+</DataItem>
+        </Geometry>
+        <Time Value="11" />
+        <Attribute Name="f_2272-0" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+1.107089155748729e-16 6.312951117975486e-16 0
+0 4.480125241866792e-16 0
+-3.047733471499937e-16 6.110743926666156e-16 0
+0 6.623845854809585e-16 3.463059562525153e-16
+-2.325302722789148e-16 6.201856709314275e-16 2.15670871421303e-16
+0 6.328875548740421e-16 1.484190659913247e-16
+1.565688121048958e-16 9.807333293435209e-16 4.125641730102102e-16
+</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="6" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="6 4" NumberType="UInt" Format="XML">0 1 3 7
+0 1 5 7
+0 4 5 7
+0 2 3 7
+0 4 6 7
+0 2 6 7
+</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+1 0 0
+0 1 0
+1 1 0
+0 0 1
+1 0 1
+0 1 1
+1 1 1
+</DataItem>
+        </Geometry>
+        <Time Value="12" />
+        <Attribute Name="f_2272-0" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+0.4999999999945531 2.066719176794537e-15 0
+0 2.175192778294913e-12 0
+0.4999999999945499 2.176616767310673e-12 0
+0 1.262762568268778e-15 2.174955860214951e-12
+0.4999999999945508 1.905767239243417e-15 2.174814830076266e-12
+0 2.175776852193033e-12 2.174770019068741e-12
+0.4999999999945505 2.176932644954945e-12 2.175171355561127e-12
+</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="6" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="6 4" NumberType="UInt" Format="XML">0 1 3 7
+0 1 5 7
+0 4 5 7
+0 2 3 7
+0 4 6 7
+0 2 6 7
+</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="8 3" Format="XML">1.526556658859599e-16 1.468106423048989e-16 1.413502830558237e-16
+1.499999999994552 1.791112639535603e-15 -1.094727875085453e-16
+-4.093947403305256e-16 1.000000000002176 -1.425607765236565e-16
+1.499999999994549 1.000000000002177 -1.214869366303005e-16
+-1.179611963664227e-16 8.612160106759409e-16 1.000000000002175
+1.49999999999455 1.673888018429959e-15 1.000000000002175
+-2.081668171172164e-17 1.000000000002176 1.000000000002175
+1.499999999994549 1.000000000002177 1.000000000002175
+</DataItem>
+        </Geometry>
+        <Time Value="13" />
+        <Attribute Name="f_2272-0" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+0.1255729007303816 2.130930455240057e-15 0
+0 -0.03940039400639911 0
+0.1255729007303797 -0.03940039400639746 0
+0 1.103262156784826e-15 -0.03940039400639952
+0.1255729007303801 1.887129568098131e-15 -0.03940039400639943
+0 -0.03940039400639853 -0.0394003940063997
+0.1255729007303806 -0.03940039400639733 -0.03940039400639905
+</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="6" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="6 4" NumberType="UInt" Format="XML">0 1 3 7
+0 1 5 7
+0 4 5 7
+0 2 3 7
+0 4 6 7
+0 2 6 7
+</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="8 3" Format="XML">1.526556658859599e-16 1.468106423048989e-16 1.413502830558237e-16
+1.499999999994552 1.791112639535603e-15 -1.094727875085453e-16
+-4.093947403305256e-16 1.000000000002176 -1.425607765236565e-16
+1.499999999994549 1.000000000002177 -1.214869366303005e-16
+-1.179611963664227e-16 8.612160106759409e-16 1.000000000002175
+1.49999999999455 1.673888018429959e-15 1.000000000002175
+-2.081668171172164e-17 1.000000000002176 1.000000000002175
+1.499999999994549 1.000000000002177 1.000000000002175
+</DataItem>
+        </Geometry>
+        <Time Value="14" />
+        <Attribute Name="f_2272-0" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+0.2400868764528054 2.869463875427546e-15 0
+0 -0.07154648720161771 0
+0.2400868764528028 -0.07154648720161559 0
+0 1.586250779713083e-15 -0.07154648720161845
+0.2400868764528027 2.547437882448684e-15 -0.07154648720161808
+0 -0.07154648720161681 -0.07154648720161874
+0.2400868764528039 -0.07154648720161547 -0.0715464872016178
+</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="6" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="6 4" NumberType="UInt" Format="XML">0 1 3 7
+0 1 5 7
+0 4 5 7
+0 2 3 7
+0 4 6 7
+0 2 6 7
+</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="8 3" Format="XML">1.526556658859599e-16 1.468106423048989e-16 1.413502830558237e-16
+1.499999999994552 1.791112639535603e-15 -1.094727875085453e-16
+-4.093947403305256e-16 1.000000000002176 -1.425607765236565e-16
+1.499999999994549 1.000000000002177 -1.214869366303005e-16
+-1.179611963664227e-16 8.612160106759409e-16 1.000000000002175
+1.49999999999455 1.673888018429959e-15 1.000000000002175
+-2.081668171172164e-17 1.000000000002176 1.000000000002175
+1.499999999994549 1.000000000002177 1.000000000002175
+</DataItem>
+        </Geometry>
+        <Time Value="15" />
+        <Attribute Name="f_2272-0" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+0.3303609901266892 3.45831222184222e-15 0
+0 -0.09473182284296054 0
+0.3303609901266862 -0.09473182284295795 0
+0 2.028671769787227e-15 -0.0947318228429615
+0.3303609901266858 2.990770867740652e-15 -0.09473182284296094
+0 -0.09473182284295935 -0.09473182284296175
+0.3303609901266875 -0.09473182284295797 -0.09473182284296074
+</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="6" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="6 4" NumberType="UInt" Format="XML">0 1 3 7
+0 1 5 7
+0 4 5 7
+0 2 3 7
+0 4 6 7
+0 2 6 7
+</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="8 3" Format="XML">1.526556658859599e-16 1.468106423048989e-16 1.413502830558237e-16
+1.499999999994552 1.791112639535603e-15 -1.094727875085453e-16
+-4.093947403305256e-16 1.000000000002176 -1.425607765236565e-16
+1.499999999994549 1.000000000002177 -1.214869366303005e-16
+-1.179611963664227e-16 8.612160106759409e-16 1.000000000002175
+1.49999999999455 1.673888018429959e-15 1.000000000002175
+-2.081668171172164e-17 1.000000000002176 1.000000000002175
+1.499999999994549 1.000000000002177 1.000000000002175
+</DataItem>
+        </Geometry>
+        <Time Value="16" />
+        <Attribute Name="f_2272-0" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+0.4001759248832937 4.060256546670273e-15 0
+0 -0.1115178156005191 0
+0.4001759248832901 -0.1115178156005163 0
+0 2.599228493263567e-15 -0.1115178156005205
+0.4001759248832895 3.395121015039651e-15 -0.1115178156005198
+0 -0.1115178156005177 -0.1115178156005207
+0.4001759248832916 -0.1115178156005164 -0.1115178156005195
+</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="6" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="6 4" NumberType="UInt" Format="XML">0 1 3 7
+0 1 5 7
+0 4 5 7
+0 2 3 7
+0 4 6 7
+0 2 6 7
+</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="8 3" Format="XML">1.526556658859599e-16 1.468106423048989e-16 1.413502830558237e-16
+1.499999999994552 1.791112639535603e-15 -1.094727875085453e-16
+-4.093947403305256e-16 1.000000000002176 -1.425607765236565e-16
+1.499999999994549 1.000000000002177 -1.214869366303005e-16
+-1.179611963664227e-16 8.612160106759409e-16 1.000000000002175
+1.49999999999455 1.673888018429959e-15 1.000000000002175
+-2.081668171172164e-17 1.000000000002176 1.000000000002175
+1.499999999994549 1.000000000002177 1.000000000002175
+</DataItem>
+        </Geometry>
+        <Time Value="17" />
+        <Attribute Name="f_2272-0" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+0.4554621029237398 4.485541417327957e-15 0
+0 -0.1241677603117848 0
+0.4554621029237358 -0.1241677603117817 0
+0 2.886249132015981e-15 -0.1241677603117864
+0.4554621029237352 3.746265976357554e-15 -0.1241677603117856
+0 -0.1241677603117832 -0.1241677603117866
+0.4554621029237376 -0.1241677603117819 -0.1241677603117852
+</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="6" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="6 4" NumberType="UInt" Format="XML">0 1 3 7
+0 1 5 7
+0 4 5 7
+0 2 3 7
+0 4 6 7
+0 2 6 7
+</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="8 3" Format="XML">1.526556658859599e-16 1.468106423048989e-16 1.413502830558237e-16
+1.499999999994552 1.791112639535603e-15 -1.094727875085453e-16
+-4.093947403305256e-16 1.000000000002176 -1.425607765236565e-16
+1.499999999994549 1.000000000002177 -1.214869366303005e-16
+-1.179611963664227e-16 8.612160106759409e-16 1.000000000002175
+1.49999999999455 1.673888018429959e-15 1.000000000002175
+-2.081668171172164e-17 1.000000000002176 1.000000000002175
+1.499999999994549 1.000000000002177 1.000000000002175
+</DataItem>
+        </Geometry>
+        <Time Value="18" />
+        <Attribute Name="f_2272-0" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+0.5005320643666603 4.906717791462921e-15 0
+0 -0.134089768551587 0
+0.500532064366656 -0.1340897685515836 0
+0 3.161456461266675e-15 -0.1340897685515887
+0.5005320643666555 3.883824316631957e-15 -0.1340897685515879
+0 -0.1340897685515852 -0.1340897685515889
+0.5005320643666579 -0.1340897685515839 -0.1340897685515876
+</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="6" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="6 4" NumberType="UInt" Format="XML">0 1 3 7
+0 1 5 7
+0 4 5 7
+0 2 3 7
+0 4 6 7
+0 2 6 7
+</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="8 3" Format="XML">1.526556658859599e-16 1.468106423048989e-16 1.413502830558237e-16
+1.499999999994552 1.791112639535603e-15 -1.094727875085453e-16
+-4.093947403305256e-16 1.000000000002176 -1.425607765236565e-16
+1.499999999994549 1.000000000002177 -1.214869366303005e-16
+-1.179611963664227e-16 8.612160106759409e-16 1.000000000002175
+1.49999999999455 1.673888018429959e-15 1.000000000002175
+-2.081668171172164e-17 1.000000000002176 1.000000000002175
+1.499999999994549 1.000000000002177 1.000000000002175
+</DataItem>
+        </Geometry>
+        <Time Value="19" />
+        <Attribute Name="f_2272-0" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+0.5382238453242185 5.176904704247484e-15 0
+0 -0.1421335362161688 0
+0.5382238453242139 -0.1421335362161655 0
+0 3.556004152457436e-15 -0.1421335362161707
+0.5382238453242131 4.116249215721442e-15 -0.1421335362161698
+0 -0.1421335362161668 -0.1421335362161709
+0.538223845324216 -0.1421335362161658 -0.1421335362161694
+</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="6" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="6 4" NumberType="UInt" Format="XML">0 1 3 7
+0 1 5 7
+0 4 5 7
+0 2 3 7
+0 4 6 7
+0 2 6 7
+</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="8 3" Format="XML">1.526556658859599e-16 1.468106423048989e-16 1.413502830558237e-16
+1.499999999994552 1.791112639535603e-15 -1.094727875085453e-16
+-4.093947403305256e-16 1.000000000002176 -1.425607765236565e-16
+1.499999999994549 1.000000000002177 -1.214869366303005e-16
+-1.179611963664227e-16 8.612160106759409e-16 1.000000000002175
+1.49999999999455 1.673888018429959e-15 1.000000000002175
+-2.081668171172164e-17 1.000000000002176 1.000000000002175
+1.499999999994549 1.000000000002177 1.000000000002175
+</DataItem>
+        </Geometry>
+        <Time Value="20" />
+        <Attribute Name="f_2272-0" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+0.5704151327671689 5.339451620088161e-15 0
+0 -0.1488288149751766 0
+0.5704151327671636 -0.148828814975173 0
+0 3.674882096094712e-15 -0.1488288149751786
+0.570415132767163 4.30191608451807e-15 -0.1488288149751777
+0 -0.1488288149751747 -0.1488288149751788
+0.5704151327671657 -0.1488288149751734 -0.1488288149751774
+</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="6" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="6 4" NumberType="UInt" Format="XML">0 1 3 7
+0 1 5 7
+0 4 5 7
+0 2 3 7
+0 4 6 7
+0 2 6 7
+</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="8 3" Format="XML">1.526556658859599e-16 1.468106423048989e-16 1.413502830558237e-16
+1.499999999994552 1.791112639535603e-15 -1.094727875085453e-16
+-4.093947403305256e-16 1.000000000002176 -1.425607765236565e-16
+1.499999999994549 1.000000000002177 -1.214869366303005e-16
+-1.179611963664227e-16 8.612160106759409e-16 1.000000000002175
+1.49999999999455 1.673888018429959e-15 1.000000000002175
+-2.081668171172164e-17 1.000000000002176 1.000000000002175
+1.499999999994549 1.000000000002177 1.000000000002175
+</DataItem>
+        </Geometry>
+        <Time Value="21" />
+        <Attribute Name="f_2272-0" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+0.5983841249977589 5.614799161657983e-15 0
+0 -0.1545203994958266 0
+0.5983841249977538 -0.1545203994958229 0
+0 3.99287706175882e-15 -0.1545203994958288
+0.5983841249977534 4.518515150412981e-15 -0.1545203994958278
+0 -0.1545203994958244 -0.154520399495829
+0.5983841249977561 -0.1545203994958234 -0.1545203994958275
+</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="6" TopologyType="Tetrahedron" NodesPerElement="4">
+          <DataItem Dimensions="6 4" NumberType="UInt" Format="XML">0 1 3 7
+0 1 5 7
+0 4 5 7
+0 2 3 7
+0 4 6 7
+0 2 6 7
+</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="8 3" Format="XML">1.526556658859599e-16 1.468106423048989e-16 1.413502830558237e-16
+1.499999999994552 1.791112639535603e-15 -1.094727875085453e-16
+-4.093947403305256e-16 1.000000000002176 -1.425607765236565e-16
+1.499999999994549 1.000000000002177 -1.214869366303005e-16
+-1.179611963664227e-16 8.612160106759409e-16 1.000000000002175
+1.49999999999455 1.673888018429959e-15 1.000000000002175
+-2.081668171172164e-17 1.000000000002176 1.000000000002175
+1.499999999994549 1.000000000002177 1.000000000002175
+</DataItem>
+        </Geometry>
+        <Time Value="22" />
+        <Attribute Name="f_2272-0" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="8 3" Format="XML">0 0 0
+0.6230289729803595 5.934986757321993e-15 0
+0 -0.1594420326845335 0
+0.6230289729803545 -0.1594420326845296 0
+0 4.35856960724911e-15 -0.1594420326845359
+0.6230289729803538 4.835710752911403e-15 -0.1594420326845348
+0 -0.1594420326845312 -0.159442032684536
+0.6230289729803563 -0.1594420326845301 -0.1594420326845345
+</DataItem>
+        </Attribute>
+      </Grid>
+    </Grid>
+  </Domain>
+</Xdmf>
