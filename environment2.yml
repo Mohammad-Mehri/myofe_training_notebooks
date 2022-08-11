@@ -1,4 +1,4 @@
-name: myofe
+name: myofe_new
 channels:
   - default
   - conda-forge
